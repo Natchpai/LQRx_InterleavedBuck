@@ -29,9 +29,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
@@ -39,5 +36,3 @@ fp-info-cache
 # Local git-based history (KiCad 9.0+)
 .history
 
-# Local project settings
-*.kicad_prl
