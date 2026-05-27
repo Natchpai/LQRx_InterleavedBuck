@@ -1,0 +1,482 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "10.0")
+	(setup
+		(textsize 1.981 1.981)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 -0.0000000000000568)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(face "Times New Roman")
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(face "Times New Roman")
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(face "Times New Roman")
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(face "Times New Roman")
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Rev:"
+		(name "")
+		(pos 24.587 16.96)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(justify center)
+		(comment "Sheet id")
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 24.46 13.222)
+		(font
+			(face "Century Gothic")
+			(size 2.286 2.286) bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+		(comment "Sheet id")
+	)
+	(tbtext "${REVIEW_DATE}"
+		(name "")
+		(pos 48.287 13.319)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${REVIEW_NAME}"
+		(name "")
+		(pos 83.727 13.274)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${SHEETPATH}"
+		(name "")
+		(pos 76.715 8.168)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Title:"
+		(name "")
+		(pos 148.352 24.684)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Variant:"
+		(name "")
+		(pos 28.729 24.979)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Project:"
+		(name "")
+		(pos 148.225 29.842)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 118.315 19.5652)
+		(font
+			(face "Century Gothic")
+			(size 3.048 3.048) bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+		(comment "Sheet id")
+	)
+	(tbtext "Sheet:"
+		(name "")
+		(pos 85.069 8.2232)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${PROJECT_NAME}"
+		(name "")
+		(pos 135.316 29.7322)
+		(font
+			(face "Century Gothic")
+			(size 2.159 2.159)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${#}"
+		(name "")
+		(pos 19.145 4.545)
+		(font
+			(face "Century Gothic")
+			(size 2.54 2.54) bold
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${##}"
+		(name "")
+		(pos 8.561 4.545)
+		(font
+			(face "Century Gothic")
+			(size 2.54 2.54) bold
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Sheet:"
+		(name "")
+		(pos 20.296 8.936)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Size"
+		(name "")
+		(pos 28.045 8.9362)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 28.434 4.5472)
+		(font
+			(face "Century Gothic")
+			(size 2.54 2.54) bold
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "of"
+		(name "")
+		(pos 13.185 4.3012)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 21.989 11.0022)
+		(end 21.989 2.0022)
+	)
+	(tbtext "${VARIANT}"
+		(name "")
+		(pos 27.108 21.358)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${DRAWING_NAME}"
+		(name "")
+		(pos 83.727 21.424)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Reviewed by:"
+		(name "")
+		(pos 85.234 16.764)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Drawing by:"
+		(name "")
+		(pos 85.234 24.914)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${DRAWING_DATE}"
+		(name "")
+		(pos 48.42 21.414)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 1.989 32.5022)
+		(end 149.989 32.5022)
+	)
+	(tbtext ""
+		(name "")
+		(pos 65.3272 11.2302)
+		(font
+			(face "Times New Roman")
+			(size 2.5 2.5)
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext ""
+		(name "")
+		(pos 50.9602 7.6022)
+		(font
+			(face "Times New Roman")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Date:"
+		(name "")
+		(pos 14.263 16.913)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(justify center)
+		(comment "Sheet id")
+	)
+	(tbtext "${RELEASE_DATE}"
+		(name "")
+		(pos 17.43 13.353)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 29.989 11.0022)
+		(end 1.989 11.0022)
+	)
+	(line
+		(name "")
+		(start 29.989 2.0022)
+		(end 29.989 27.0022)
+	)
+	(tbtext "${PROJECT_ID}"
+		(name "")
+		(pos 47.65 29.732)
+		(font
+			(face "Century Gothic")
+			(size 2.159 2.159)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 149.989 32.5022)
+		(end 149.989 2.0022)
+	)
+	(line
+		(name "")
+		(start 86.489 27.0022)
+		(end 86.489 2.0022)
+	)
+	(line
+		(name "")
+		(start 49.989 32.5022)
+		(end 49.989 11.0022)
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 118.476 12.222)
+		(font
+			(face "Century Gothic")
+			(size 3.048 3.048) bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 29.989 19.0022)
+		(end 86.489 19.0022)
+	)
+	(line
+		(name "")
+		(start 1.989 27.0022)
+		(end 149.989 27.0022)
+	)
+	(line
+		(name "")
+		(start 29.989 19.0022)
+		(end 1.989 19.0022)
+	)
+	(line
+		(name "")
+		(start 18.489 19.0022)
+		(end 18.489 11.0022)
+	)
+	(line
+		(name "")
+		(start 29.989 11.0022)
+		(end 86.489 11.0022)
+	)
+	(tbtext "Date:\n"
+		(name "")
+		(pos 48.989 25.002)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Date:\n"
+		(name "")
+		(pos 48.989 17.002)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 86.489 6.5022)
+		(end 149.989 6.5022)
+	)
+	(tbtext "${FILENAME}"
+		(name "")
+		(pos 79.489 4.002)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "File:"
+		(name "")
+		(pos 84.989 4.002)
+		(font
+			(face "Century Gothic")
+			(size 1.524 1.524)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 147.989 4.002)
+		(font
+			(face "Century Gothic")
+			(size 1.778 1.778)
+			(color 0 0 0 1)
+		)
+		(comment "Sheet id")
+	)
+)
