@@ -1,0 +1,3017 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f1f915bb-3f01-43e1-a48c-5809a60b6f17")
+	(paper "A3")
+	(title_block
+		(rev "1.0")
+		(comment 1 "Block Diagram")
+		(comment 2 "(Top Level View)")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 307.34 41.91)
+		(end 367.03 196.85)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "111c0ac1-5e0d-4944-a045-e1c081cb42cf")
+	)
+	(rectangle
+		(start 46.99 41.91)
+		(end 166.37 107.95)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "12aee1a6-189b-46c7-8ebb-6f024b969fd7")
+	)
+	(rectangle
+		(start 269.24 220.6455)
+		(end 311.15 236.8917)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "160f56a3-367e-4c10-86e5-c5d1cd165820")
+	)
+	(rectangle
+		(start 308.61 178.0785)
+		(end 359.41 190.7785)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1683f23f-841f-49e3-a1d5-85d2c8c0aaf4")
+	)
+	(rectangle
+		(start 124.46 239.168)
+		(end 166.37 255.6778)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "31866aca-68a6-4a84-8f64-2b403f244244")
+	)
+	(rectangle
+		(start 264.16 71.12)
+		(end 307.34 123.19)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7df1321a-6815-4ec2-82c2-f58d9a70cb9f")
+	)
+	(rectangle
+		(start 308.61 151.13)
+		(end 359.41 168.91)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c054bd27-8caa-4978-bcde-daf459c08368")
+	)
+	(rectangle
+		(start 130.81 135.255)
+		(end 166.37 223.52)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c0b33f47-6e0a-4618-a9fc-b0212910e485")
+	)
+	(rectangle
+		(start 308.61 125.73)
+		(end 359.41 143.51)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dca81eb2-f5c8-4a6c-83ac-1d3df1f3432e")
+	)
+	(text "MAX"
+		(exclude_from_sim no)
+		(at 100.33 129.54 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "09c7f995-08f9-4ef7-bfc1-ae25d559abe1")
+	)
+	(text "Output Current"
+		(exclude_from_sim no)
+		(at 59.69 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "100feead-465b-4396-a7d3-e68a246717a9")
+	)
+	(text "12V"
+		(exclude_from_sim no)
+		(at 100.33 167.64 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "14a77105-047a-4cc6-b0df-31cd59d92c53")
+	)
+	(text "[${#}] ${COMMENT1}"
+		(exclude_from_sim no)
+		(at 210.82 25.4 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 8 8)
+				(bold yes)
+			)
+		)
+		(uuid "14c81667-998d-467c-bb93-4a89388c56f5")
+	)
+	(text "MIN"
+		(exclude_from_sim no)
+		(at 87.63 129.54 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1610bf6b-8fef-40ee-8e22-e2d66b860028")
+	)
+	(text "V_{IN}"
+		(exclude_from_sim no)
+		(at 49.53 137.16 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1a47e0cd-8046-463a-ae78-f229512a3b65")
+	)
+	(text "0V"
+		(exclude_from_sim no)
+		(at 87.63 137.16 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "21ee1ac5-f081-4bd5-9c42-670e83fd005b")
+	)
+	(text "Output Voltage"
+		(exclude_from_sim no)
+		(at 59.69 167.64 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2ee1a853-3abc-42a1-846a-34af971e7f83")
+	)
+	(text "T_{stg}"
+		(exclude_from_sim no)
+		(at 49.53 142.24 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "45f9d73d-5245-4dd5-9dc2-7d7053a61c54")
+	)
+	(text "Target Specifications"
+		(exclude_from_sim no)
+		(at 46.99 154.94 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5694c530-ac95-42cc-8122-b96d9dbe242e")
+	)
+	(text "100°C"
+		(exclude_from_sim no)
+		(at 100.33 142.24 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5d4cbc97-eff2-459b-a2bb-8b52c08490f3")
+	)
+	(text "f_{sw}"
+		(exclude_from_sim no)
+		(at 49.53 177.8 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "67d0a6a0-a9b1-41f5-b5ee-13f39c52ad11")
+	)
+	(text "Storage Temperature"
+		(exclude_from_sim no)
+		(at 59.69 142.24 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6aed0cc0-944a-4537-985e-8485f88a1ee0")
+	)
+	(text "10A"
+		(exclude_from_sim no)
+		(at 100.33 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6b935b39-b7d3-42a1-b368-8626924613e6")
+	)
+	(text "30V"
+		(exclude_from_sim no)
+		(at 113.03 162.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "742c7ab2-b143-4379-961b-24e6936366c0")
+	)
+	(text "Maximun Rating"
+		(exclude_from_sim no)
+		(at 46.99 129.54 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7e075cde-1952-49d1-99b3-a4f8bf401191")
+	)
+	(text "30V"
+		(exclude_from_sim no)
+		(at 100.33 137.16 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "85caaab2-c245-4ec1-818d-b3a58ca530f8")
+	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 100.33 162.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a03bd288-299b-4f1a-8892-c243f18af5da")
+	)
+	(text "0°C"
+		(exclude_from_sim no)
+		(at 87.63 142.24 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a87114fc-40af-4451-beaf-f758114ba525")
+	)
+	(text "Input Voltage"
+		(exclude_from_sim no)
+		(at 59.69 162.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a9d51d17-4557-41dc-8b6f-0891b93aaccc")
+	)
+	(text "V_{IN}"
+		(exclude_from_sim no)
+		(at 49.53 162.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "abd176a7-c6ff-46d8-baa9-210921ea659f")
+	)
+	(text "15V"
+		(exclude_from_sim no)
+		(at 87.63 162.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b437375a-f199-492c-a3a6-c489856dfaca")
+	)
+	(text "NOM"
+		(exclude_from_sim no)
+		(at 100.33 154.94 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c80d72b4-52ab-4bce-8929-9dd44e45017f")
+	)
+	(text "200kHz"
+		(exclude_from_sim no)
+		(at 100.33 177.8 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d3d81dd6-1a4b-43d0-82fd-4d023b8e6326")
+	)
+	(text "I_{OUT}"
+		(exclude_from_sim no)
+		(at 49.53 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d7d8fa24-45ea-478c-a666-d947f3001972")
+	)
+	(text "20A"
+		(exclude_from_sim no)
+		(at 113.03 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e5d4972c-80e7-416d-92a1-97704985086b")
+	)
+	(text "MIN"
+		(exclude_from_sim no)
+		(at 87.63 154.94 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e9c6e71d-237b-4730-953c-532389cfc882")
+	)
+	(text "Switching Freqency"
+		(exclude_from_sim no)
+		(at 59.69 177.8 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e9c7248e-ee09-4212-af41-884f781c5a0b")
+	)
+	(text "MAX"
+		(exclude_from_sim no)
+		(at 113.03 154.94 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ee93aa06-6d2b-4e9f-af91-e1e94b27a410")
+	)
+	(text "Input Voltage"
+		(exclude_from_sim no)
+		(at 59.69 137.16 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f83012ee-ca46-44c0-809a-482c86fdef32")
+	)
+	(text "V_{OUT}"
+		(exclude_from_sim no)
+		(at 49.53 167.64 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "fed3975b-76f1-473a-863a-e2cd0d92c512")
+	)
+	(text_box "Analog Out"
+		(exclude_from_sim no)
+		(at 138.43 166.514 0)
+		(size 20.32 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "00efa588-3a63-4015-a0be-da35edc1ca49")
+	)
+	(text_box "x2 PinHeader\nConnector"
+		(exclude_from_sim no)
+		(at 138.43 171.8578 0)
+		(size 26.67 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 225 211 136 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "019e2bb0-d538-4822-b489-1721d20718c6")
+	)
+	(text_box "LDO\nMAX 250mA"
+		(exclude_from_sim no)
+		(at 125.73 92.71 0)
+		(size 24.13 11.2438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "02062920-61f2-4c60-86cf-bc47edffb317")
+	)
+	(text_box "USB_DP, USB_DM"
+		(exclude_from_sim no)
+		(at 166.37 194.3099 0)
+		(size 26.67 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 67 230 226 0.8)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "046714d9-72e6-40ae-a926-a4e5feb8986b")
+	)
+	(text_box "INTERFACE"
+		(exclude_from_sim no)
+		(at 130.81 126.365 0)
+		(size 35.56 8.8901)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "051e6408-5f86-4ce1-90a5-07115f2891de")
+	)
+	(text_box "+A3V3"
+		(exclude_from_sim no)
+		(at 193.04 80.01 0)
+		(size 15.24 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 176 168 249 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "065543b2-8657-4b5e-a4d4-79c7a089e00e")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 68.58 48.26 90)
+		(size 2.54 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 224 98 98 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "09724620-31d8-4da5-9edf-a9864fb03b62")
+	)
+	(text_box "DAC"
+		(exclude_from_sim no)
+		(at 194.31 172.72 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 225 211 136 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0c8fbd4b-7336-4f50-a1ed-315168956b19")
+	)
+	(text_box "+S3V3"
+		(exclude_from_sim no)
+		(at 149.86 78.74 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 176 168 249 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1348c76c-c926-49a2-b769-ec9645bb684e")
+	)
+	(text_box "USB"
+		(exclude_from_sim no)
+		(at 71.12 87.3662 0)
+		(size 16.51 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "148bb7de-abcd-4d7b-8d74-0d827a1518a5")
+	)
+	(text_box "USART1"
+		(exclude_from_sim no)
+		(at 194.31 153.67 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 240 236 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "16b56b0c-33e6-4e0e-92fb-fb76bf7f8ec4")
+	)
+	(text_box "GATE CONTROL\nPhase 1"
+		(exclude_from_sim no)
+		(at 265.43 81.28 0)
+		(size 30.48 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 203 203 203 0.8117647059)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "175ca715-1e3c-41bf-bbce-ee945c5870ad")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 124.46 78.74 0)
+		(size 1.27 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "185799f4-23f4-49f4-bb2d-c23685b7d139")
+	)
+	(text_box "LS MOSFET Phase 1"
+		(exclude_from_sim no)
+		(at 308.61 88.9 0)
+		(size 33.02 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.4901960784)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1dbd6f26-e404-4110-95b0-509af0911690")
+	)
+	(text_box "FAULT"
+		(exclude_from_sim no)
+		(at 298.45 222.6579 0)
+		(size 11.43 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 90 90 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1f5c176f-dd56-45f3-bfa0-61bfb15f7783")
+	)
+	(text_box "Current Sensor"
+		(exclude_from_sim no)
+		(at 308.61 120.3862 0)
+		(size 50.8 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "22feb889-6ba7-43a4-9106-9c817e15cb95")
+	)
+	(text_box "Output Voltage"
+		(exclude_from_sim no)
+		(at 309.88 152.4 0)
+		(size 24.13 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2738c7a9-abd7-4324-b9d0-113a9d602512")
+	)
+	(text_box "PC0, PC1, PC2,\nPC3"
+		(exclude_from_sim no)
+		(at 246.38 223.52 0)
+		(size 22.86 6.7579)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2ca6aa79-eccc-46c0-8a0d-6cc5de67ebd1")
+	)
+	(text_box "Voltage Sensor"
+		(exclude_from_sim no)
+		(at 308.61 145.7862 0)
+		(size 50.8 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "2d9fe6ba-a4c4-4b98-b076-113dca576cb8")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 114.3 71.12 0)
+		(size 2.54 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2ddf7bbb-adfe-4b07-8c55-615c66f41d02")
+	)
+	(text_box "Phase2 Current"
+		(exclude_from_sim no)
+		(at 309.88 135.773 0)
+		(size 24.13 6.7455)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2f6e7bdc-bcb3-4805-9b44-fd801e4b7daa")
+	)
+	(text_box "HRTIM\nCHA1, CHA2"
+		(exclude_from_sim no)
+		(at 246.38 83.82 0)
+		(size 17.78 8.8899)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 55 216 140 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "31c505d6-e087-461d-a716-366745ac1c8a")
+	)
+	(text_box "x1 User SW"
+		(exclude_from_sim no)
+		(at 125.73 248.0579 0)
+		(size 17.78 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "32fa61f9-fcb4-4b65-908e-61c8f152c0fb")
+	)
+	(text_box "ADC1"
+		(exclude_from_sim no)
+		(at 228.6 127 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 231 150 242 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "338b0422-2de7-4742-8799-77c65e65b87e")
+	)
+	(text_box "User LEDs"
+		(exclude_from_sim no)
+		(at 269.24 213.0254 0)
+		(size 41.91 7.6201)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "35ff5d6a-9fd5-49f6-a8f8-16139679811e")
+	)
+	(text_box "AUX"
+		(exclude_from_sim no)
+		(at 138.43 140.0712 0)
+		(size 16.51 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "38d90cf7-4e4d-40ad-82b9-2bb00ae05946")
+	)
+	(text_box "USB FS"
+		(exclude_from_sim no)
+		(at 194.31 193.0399 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 67 230 226 0.8)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3a075139-55f8-4fb8-b7dc-b4a632b9f6b1")
+	)
+	(text_box "+9V"
+		(exclude_from_sim no)
+		(at 264.16 72.39 0)
+		(size 11.43 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 154 69 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3b9e8a5c-ab48-462d-bd47-d0291a0a2d87")
+	)
+	(text_box "LDO\nMAX 500mA"
+		(exclude_from_sim no)
+		(at 125.73 78.74 0)
+		(size 24.13 11.2438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3d5c490f-6cfa-4e77-b608-aeb8843db030")
+	)
+	(text_box "Current Sensor"
+		(exclude_from_sim no)
+		(at 308.61 172.7347 0)
+		(size 50.8 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "3e959ade-645c-430b-8190-f65b1f506278")
+	)
+	(text_box "ADC2_IN5"
+		(exclude_from_sim no)
+		(at 246.38 137.16 0)
+		(size 60.96 5.0799)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 231 150 242 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3ff91204-5a6c-44b1-9fde-38ac3b8ac4ff")
+	)
+	(text_box "Buck\nMAX 1A"
+		(exclude_from_sim no)
+		(at 71.12 45.72 0)
+		(size 24.13 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "44995704-eb03-41d9-b17d-9fb4ff6bb5a9")
+	)
+	(text_box "x1 User BT"
+		(exclude_from_sim no)
+		(at 125.73 240.4379 0)
+		(size 17.78 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4ba6f39c-8b8c-41c4-9dc6-42a9c4f94bef")
+	)
+	(text_box "+VOUT"
+		(exclude_from_sim no)
+		(at 345.44 46.99 0)
+		(size 21.59 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 224 98 98 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify right)
+		)
+		(uuid "4c5b7557-9ea5-4634-a422-cc4f55df880a")
+	)
+	(text_box "ADC4_IN5"
+		(exclude_from_sim no)
+		(at 246.38 181.6099 0)
+		(size 60.96 5.0801)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 214 183 237 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "509b8c3e-7815-44cc-89b9-add21243b408")
+	)
+	(text_box "+VUSB"
+		(exclude_from_sim no)
+		(at 71.12 92.71 0)
+		(size 16.51 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "51f7f71d-dd66-4f06-a4a4-754676526e7b")
+	)
+	(text_box "Input Current"
+		(exclude_from_sim no)
+		(at 309.88 180.34 0)
+		(size 24.13 6.6285)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "547ffc68-bcc4-4df0-b412-99ac994ec0a6")
+	)
+	(text_box "HS MOSFET Phase 1"
+		(exclude_from_sim no)
+		(at 308.61 81.28 0)
+		(size 33.02 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.4901960784)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "56d76614-dcef-4ac3-95fa-52051cb45914")
+	)
+	(text_box "ADC1_IN4"
+		(exclude_from_sim no)
+		(at 246.38 128.1998 0)
+		(size 60.96 5.1501)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 231 150 242 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5dc24889-a30b-4ae5-b0a8-909f90f64ad9")
+	)
+	(text_box "SWDIO, SWCLK, NRST"
+		(exclude_from_sim no)
+		(at 166.37 213.3599 0)
+		(size 26.67 6.7579)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 116 206 152 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5ebe5358-83a4-45bd-bfd6-92e82ff91af1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 87.63 96.52 0)
+		(size 10.16 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6043cd6a-33fc-4206-a730-8d4c239964eb")
+	)
+	(text_box "+5V"
+		(exclude_from_sim no)
+		(at 116.84 64.77 0)
+		(size 7.62 39.37)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "61472b59-7939-4f5b-8f0d-009dff14177f")
+	)
+	(text_box "HRTIM\nCHF1, CHF2"
+		(exclude_from_sim no)
+		(at 246.38 101.8151 0)
+		(size 17.78 8.6749)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 55 216 140 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "63b864bd-1100-4a02-8be8-11e1676be017")
+	)
+	(text_box "Debug"
+		(exclude_from_sim no)
+		(at 138.43 205.7399 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "67e9649f-1676-49e5-a1ec-17e70a5e0e48")
+	)
+	(text_box "SMA\nConnector"
+		(exclude_from_sim no)
+		(at 345.44 63.5 0)
+		(size 21.59 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 225 211 136 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "6ab3aa88-a725-4be9-9375-599b74df8bc9")
+	)
+	(text_box "GPIO"
+		(exclude_from_sim no)
+		(at 194.31 144.145 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6b31f097-59e7-4cfe-9bad-5c66ceae09c2")
+	)
+	(text_box "+S3V3"
+		(exclude_from_sim no)
+		(at 342.9 152.4 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 176 168 249 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6b5a6f40-c2ff-4b7d-b8fa-82daa4039af1")
+	)
+	(text_box "USB"
+		(exclude_from_sim no)
+		(at 138.43 187.6961 0)
+		(size 16.51 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "6d1134db-9392-4595-aedc-092eaaf740b1")
+	)
+	(text_box "DAC1_OUT2\nDAC2_OUT1"
+		(exclude_from_sim no)
+		(at 166.37 173.9899 0)
+		(size 26.67 6.7579)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 225 211 136 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6db4e1c9-af3d-49b4-a4cd-9bb73d54a1d1")
+	)
+	(text_box "ADC4"
+		(exclude_from_sim no)
+		(at 228.6 161.29 0)
+		(size 16.51 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 214 183 237 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6f899d0f-a545-473d-aa6d-51d46e63fe86")
+	)
+	(text_box "+S3V3"
+		(exclude_from_sim no)
+		(at 342.9 127 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 176 168 249 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "71096917-91aa-4c53-b745-013c9362d147")
+	)
+	(text_box "x1 SWD\nConnector"
+		(exclude_from_sim no)
+		(at 138.43 212.0899 0)
+		(size 26.67 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 116 206 152 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "766ffebd-7cbf-40a7-9450-a30a50bb5ac3")
+	)
+	(text_box "USART1_TX\nUSART1_RX"
+		(exclude_from_sim no)
+		(at 166.37 153.8971 0)
+		(size 26.67 6.7579)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 240 236 255 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7799bb87-7017-40a7-a989-a91e27908fff")
+	)
+	(text_box "+9V"
+		(exclude_from_sim no)
+		(at 95.25 45.72 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 154 69 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7bb5f69e-1e1c-43a8-be10-0e6d883d4bd0")
+	)
+	(text_box "LS MOSFET Phase 2"
+		(exclude_from_sim no)
+		(at 308.61 106.68 0)
+		(size 33.02 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.4901960784)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7e41e68d-f0e4-4fc1-8607-29f3301868c9")
+	)
+	(text_box "ADC3_IN1"
+		(exclude_from_sim no)
+		(at 246.38 153.67 0)
+		(size 60.96 5.0799)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 231 150 242 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "805b816d-0e15-400e-87d1-f248cf823676")
+	)
+	(text_box "RUN"
+		(exclude_from_sim no)
+		(at 284.48 222.6579 0)
+		(size 11.43 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 100 255 96 0.8117647059)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "87b21971-664a-4d1f-b725-a87887e3fc82")
+	)
+	(text_box "Enable1, 2"
+		(exclude_from_sim no)
+		(at 265.43 115.57 0)
+		(size 19.05 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "884754e6-99fd-4e5a-8bba-7a42126f3efb")
+	)
+	(text_box "+5V"
+		(exclude_from_sim no)
+		(at 342.9 180.6185 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8c525433-ba64-49cd-a54d-635118b3eb6b")
+	)
+	(text_box "GPIO"
+		(exclude_from_sim no)
+		(at 166.37 145.4149 0)
+		(size 26.67 5.7151)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8d840837-bf7f-4233-a4a3-b4f955f9141f")
+	)
+	(text_box "SWD"
+		(exclude_from_sim no)
+		(at 194.31 212.0899 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 116 206 152 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8dd11257-69f4-414b-aaf1-f39ee9ec02a7")
+	)
+	(text_box "PWM"
+		(exclude_from_sim no)
+		(at 228.6 82.55 0)
+		(size 16.51 29.21)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 55 216 140 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(thickness 0.34)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8df568e5-978a-4417-8992-8e179b7755a9")
+	)
+	(text_box "USER LED"
+		(exclude_from_sim no)
+		(at 270.51 230.2779 0)
+		(size 15.24 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 0.568627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9b74afbd-739c-4383-93ee-8a4e1f91f0cc")
+	)
+	(text_box "+3V3"
+		(exclude_from_sim no)
+		(at 149.86 64.77 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 244 189 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a11fbf25-0bdf-4542-9c87-0725c34ad61a")
+	)
+	(text_box "x1 FFC-16\nConnector"
+		(exclude_from_sim no)
+		(at 138.43 145.4149 0)
+		(size 26.67 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "a245e103-f649-4bbb-a2f7-d420297152fd")
+	)
+	(text_box "Phase1 Current "
+		(exclude_from_sim no)
+		(at 309.88 127 0)
+		(size 24.13 6.6285)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a443d86a-2678-4020-ace1-5294aab115ea")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 114.3 96.52 0)
+		(size 2.54 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "acd02a46-c7c0-4c59-9498-b1433a018335")
+	)
+	(text_box "GPIO"
+		(exclude_from_sim no)
+		(at 228.6 114.3 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b48de57e-2c0b-47b5-a45b-8f02de98d579")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 193.04 71.12 0)
+		(size 53.34 184.785)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "ba5e6518-26da-45da-ac50-8f2b2ccb0191")
+	)
+	(text_box "IDLE"
+		(exclude_from_sim no)
+		(at 270.51 222.6579 0)
+		(size 11.43 5.3438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 0.568627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bd36452f-53ce-41df-9987-93c540da8d9a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 124.46 92.71 0)
+		(size 1.27 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bdc7155e-2923-427b-b41f-051a3cc695cd")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 295.91 101.6 0)
+		(size 11.43 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 48 210 152 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "be39e2b6-2305-4bb7-86a8-a2e8df5e85c4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 124.46 64.77 0)
+		(size 1.27 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bfbfa800-14c3-40bd-9259-7629cbc562bb")
+	)
+	(text_box "GATE CONTROL\nPhase 2"
+		(exclude_from_sim no)
+		(at 265.43 99.06 0)
+		(size 30.48 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 203 203 203 0.8117647059)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bfd3f4a7-f5d4-4f6c-8638-23c2c68de76f")
+	)
+	(text_box "GATE DRIVER"
+		(exclude_from_sim no)
+		(at 264.16 62.2299 0)
+		(size 43.18 8.8901)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "c078d279-a83b-484d-93ad-dd95e6fbed67")
+	)
+	(text_box "User Interface"
+		(exclude_from_sim no)
+		(at 124.46 231.5479 0)
+		(size 41.91 7.6201)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "c0ce8c9c-5d09-4cb0-be75-eafd3df1288a")
+	)
+	(text_box "+3V3"
+		(exclude_from_sim no)
+		(at 193.04 72.39 0)
+		(size 15.24 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 244 189 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c1183a90-e66a-4ab2-ae6a-78e2f821ec4e")
+	)
+	(text_box "RCB\nDiode"
+		(exclude_from_sim no)
+		(at 97.79 92.8962 0)
+		(size 16.51 11.2438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.3019607843)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c1cbf0e1-5bc2-4488-a45d-11f08c77e584")
+	)
+	(text_box "+VREF"
+		(exclude_from_sim no)
+		(at 193.04 87.63 0)
+		(size 15.24 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 176 168 249 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c99a9453-105b-4e41-bd2c-d236a0249342")
+	)
+	(text_box "ADC4_IN3"
+		(exclude_from_sim no)
+		(at 246.38 162.56 0)
+		(size 60.96 5.0799)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 214 183 237 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ca2f5bf0-f987-4ec4-bd03-7d79e3a4a6d3")
+	)
+	(text_box "ADC3"
+		(exclude_from_sim no)
+		(at 228.6 152.4 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 231 150 242 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ca671aa6-880a-4db0-9a89-7f6ee615767a")
+	)
+	(text_box "Coupling"
+		(exclude_from_sim no)
+		(at 345.44 57.15 0)
+		(size 13.97 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "cb142372-0391-4762-8efb-8a8af0290488")
+	)
+	(text_box "x1 Reset BT"
+		(exclude_from_sim no)
+		(at 146.05 240.4379 0)
+		(size 19.05 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 237 186 177 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cf12c722-6a53-4b68-bf22-63416cbfafd7")
+	)
+	(text_box "+VIN"
+		(exclude_from_sim no)
+		(at 54.61 45.72 0)
+		(size 13.97 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 224 98 98 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2.5 2.5)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "d46b1826-882f-4e7d-ada3-b98471ae5627")
+	)
+	(text_box "ADC2"
+		(exclude_from_sim no)
+		(at 228.6 135.89 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 231 150 242 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d6bda254-4f44-4fae-8caa-1730a5b1bd6d")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 95.25 71.12 0)
+		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 219 180 84 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d9e36636-7ed7-4075-8a8e-fa9dfaec717f")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 295.91 83.82 0)
+		(size 11.43 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 48 210 152 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "dae82cb7-5d06-45fb-ba87-9ee4b6609f99")
+	)
+	(text_box "Input Voltage"
+		(exclude_from_sim no)
+		(at 309.88 161.29 0)
+		(size 24.13 6.3501)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.768627451)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "dd29a499-3ed9-45f8-965d-50ee0c2a4116")
+	)
+	(text_box "GPIO"
+		(exclude_from_sim no)
+		(at 228.6 222.6579 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "decd1593-bf99-4ae1-b6b7-ed6c0d7f4bed")
+	)
+	(text_box "PC10, NRST, PA15"
+		(exclude_from_sim no)
+		(at 166.37 243.84 0)
+		(size 26.67 6.7579)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "dfba9604-596a-477e-8deb-97ac9845da53")
+	)
+	(text_box "x1 USB-C\nConnector"
+		(exclude_from_sim no)
+		(at 138.43 193.0399 0)
+		(size 26.67 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 67 230 226 0.8)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "e0cecbed-7193-405e-ab9e-607d8a1ff9a6")
+	)
+	(text_box "LDO\nMAX 500mA"
+		(exclude_from_sim no)
+		(at 125.73 64.77 0)
+		(size 24.13 11.2438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e9c4c846-8b63-4663-9fc9-384991cab9f1")
+	)
+	(text_box "STM32G474"
+		(exclude_from_sim no)
+		(at 193.04 62.2299 0)
+		(size 53.34 8.8901)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "ea75e454-c7e0-4bae-b1dd-1e2824761885")
+	)
+	(text_box "GPIO"
+		(exclude_from_sim no)
+		(at 194.31 242.9779 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ec762a74-d3e9-42df-bd97-27a9d09fc4ef")
+	)
+	(text_box "PC9, PB15"
+		(exclude_from_sim no)
+		(at 246.38 115.57 0)
+		(size 17.78 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 201 229 255 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "edb384df-8f17-453b-9e68-1d09fa57171d")
+	)
+	(text_box "POWER STATE"
+		(exclude_from_sim no)
+		(at 307.34 33.0199 0)
+		(size 59.69 8.8901)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "ee9b2598-f739-43da-b277-9001bdbf9525")
+	)
+	(text_box "Buck\nMAX 1A"
+		(exclude_from_sim no)
+		(at 71.12 67.4962 0)
+		(size 24.13 11.2438)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f1f1b432-488e-48f6-aed9-781e83959b38")
+	)
+	(text_box "+A3V3"
+		(exclude_from_sim no)
+		(at 149.86 92.71 0)
+		(size 16.51 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 176 168 249 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f3a89f7d-fc77-413d-9e49-224206ae3b75")
+	)
+	(text_box "+VIN"
+		(exclude_from_sim no)
+		(at 307.34 46.99 0)
+		(size 21.59 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 224 98 98 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "fb48123b-caa4-46db-94f2-ffa637f9785d")
+	)
+	(text_box "POWER SUPPLIES"
+		(exclude_from_sim no)
+		(at 46.99 33.02 0)
+		(size 50.8 8.8899)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 72 72 72 1)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 3 3)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "fcf2f678-2ebe-46a6-8614-4f71abb2d930")
+	)
+	(text_box "HS MOSFET Phase 2"
+		(exclude_from_sim no)
+		(at 308.61 99.06 0)
+		(size 33.02 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.4901960784)
+		)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "fe79aa6c-3d49-4d99-b07b-cc3152b48224")
+	)
+	(polyline
+		(pts
+			(xy 46.99 157.48) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2e99e9ea-9ba1-478f-afbe-aec25d4e44ad")
+	)
+	(polyline
+		(pts
+			(xy 307.34 116.84) (xy 367.03 116.84)
+		)
+		(stroke
+			(width 0.2)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "3add8a24-4feb-4852-81f1-f7a55a237654")
+	)
+	(polyline
+		(pts
+			(xy 46.99 146.05) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "40cf802c-a4ef-46cc-8b3d-feb6855fc1a1")
+	)
+	(polyline
+		(pts
+			(xy 46.99 132.08) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "af8d8c99-612e-4a41-bcd4-0c81ba25c10e")
+	)
+	(polyline
+		(pts
+			(xy 46.99 181.61) (xy 120.65 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eb98897f-d1e1-46e4-922c-d14c1f8fb843")
+	)
+)
