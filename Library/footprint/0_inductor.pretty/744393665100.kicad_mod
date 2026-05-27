@@ -1,0 +1,155 @@
+(footprint "744393665100"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de488d24-7296-47b4-ab66-5cd591eb0aa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -0.1 0.8 0)
+		(unlocked yes)
+		(layer "User.1")
+		(hide yes)
+		(uuid "233d54d4-34d5-4cea-bb68-d7f6ddb6a099")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744393665100.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b7212e9-f63e-4962-b10d-feac91d6e48b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "330877ce-06d8-4c0b-aee9-5818c416e674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.85 5.25)
+		(end 5.85 -5.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e2cc073e-4d68-4a07-8bb3-9c746328b979")
+	)
+	(fp_poly
+		(pts
+			(xy -5.8 -5.216498) (xy -4.8 -5.216498) (xy -5.8 -4.216498)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c6fc8b84-303c-41a4-8a14-5a3fa0590cc1")
+	)
+	(fp_rect
+		(start -6.5 6)
+		(end 6.5 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "078b2c44-aa92-43c7-90d2-997a8a0688b5")
+	)
+	(fp_rect
+		(start -5.6 5)
+		(end 5.6 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c34b1bb3-0d76-4100-b16d-984405748abe")
+	)
+	(fp_circle
+		(center -4.5 -3.85)
+		(end -4.25 -3.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "262c4c58-00f9-4921-81c5-55fc0174e4df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.02 0)
+		(layer "F.Fab")
+		(uuid "4377d758-7456-453d-b6e7-d9b546487432")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -3.2)
+		(size 9 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.07)
+		(uuid "889a23b9-9316-4547-976f-4d22c5ecf739")
+	)
+	(pad "2" smd roundrect
+		(at 0 3.2)
+		(size 9 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.07)
+		(uuid "ff67386f-cb68-4fa1-a291-183bf3c5c153")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/3D/inductors/744393665100-WE-XHMI SMT Power Inductor.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

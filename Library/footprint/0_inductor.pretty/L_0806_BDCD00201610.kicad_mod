@@ -1,0 +1,219 @@
+(footprint "L_0806_BDCD00201610"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "b8f2c7e1-1cda-4126-9e53-f2846865f737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_0806_BDCD00201610"
+		(at 0 1.55 0)
+		(layer "User.1")
+		(hide yes)
+		(uuid "5a53e38b-336b-48f9-915a-272a85757967")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04597f08-ac61-4b9d-8597-3e179eaa31dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7204/BDCD_series.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d29638dc-59bc-4bf7-af37-d8db2ca611d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e932320-eea4-4f9c-8957-c1b447c268b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.15 -1.025)
+		(end 0.15 -1.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17cea4bf-6a02-493a-81eb-016a6800dcdb")
+	)
+	(fp_line
+		(start -0.15 1.025)
+		(end 0.15 1.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4e9453b-1519-4403-bb2f-0299ee0b37bd")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -0.618806 -1)
+				(mid -0.458347 -0.919386)
+				(end -0.427241 -0.74253)
+			)
+			(arc
+				(start -0.632759 -0.05747)
+				(mid -0.641194 0)
+				(end -0.632759 0.05747)
+			)
+			(arc
+				(start -0.427241 0.74253)
+				(mid -0.458347 0.919386)
+				(end -0.618806 1)
+			)
+			(arc
+				(start -1.15 1)
+				(mid -1.291421 0.941421)
+				(end -1.35 0.8)
+			)
+			(arc
+				(start -1.35 -0.8)
+				(mid -1.291421 -0.941421)
+				(end -1.15 -1)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "aa6714f1-1373-4efb-80b2-2304883b3a58")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 0.618806 1)
+				(mid 0.458347 0.919386)
+				(end 0.427241 0.74253)
+			)
+			(arc
+				(start 0.632759 0.05747)
+				(mid 0.641194 0)
+				(end 0.632759 -0.05747)
+			)
+			(arc
+				(start 0.427241 -0.74253)
+				(mid 0.458347 -0.919386)
+				(end 0.618806 -1)
+			)
+			(arc
+				(start 1.15 -1)
+				(mid 1.291421 -0.941421)
+				(end 1.35 -0.8)
+			)
+			(arc
+				(start 1.35 0.8)
+				(mid 1.291421 0.941421)
+				(end 1.15 1)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a4b53fa1-49f0-4b6a-b804-2b8e8351c8e9")
+	)
+	(fp_rect
+		(start -1.5 -1.2)
+		(end 1.5 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "68bc6c52-92d7-4702-afab-ee8d2bf3ed20")
+	)
+	(fp_rect
+		(start -1.1 0.9)
+		(end 1.1 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a4bb32b9-de50-4329-9c4c-305dbabbddfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "34b79d4a-49da-4d17-89ba-8dbbed3d8ddf")
+		(effects
+			(font
+				(size 0.5 0.45)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9a16034c-2e53-41b6-bc20-14590c55159d")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c17afa7a-24c0-45a0-80b3-a5eede5f1064")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/3D/inductors/CVH201205.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.9 1 0.9)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

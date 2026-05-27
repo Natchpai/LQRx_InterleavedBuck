@@ -1,0 +1,127 @@
+(footprint "AMELA2012S"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ab4c039-adb4-4a0c-8681-61f13a050faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f08d0437-bcb3-41f9-bba1-733c704c4b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/datasheets/AMELA2012S.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45fcc48-84fc-48cc-86ba-fa633e79cacc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2105c51e-1a62-419f-aa2f-f6ce24cd670e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 -1.1)
+		(end 0.3 -1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51babf67-68eb-41d6-99d3-9713f46fefa4")
+	)
+	(fp_line
+		(start -0.3 1.1)
+		(end 0.3 1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d8ae8f62-efc5-49d0-8cac-23e8ffd5e67b")
+	)
+	(fp_rect
+		(start -1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "26bf14de-9509-4b83-a0f9-43b1cf966f6b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "afe149ea-dcb2-49a8-a4b6-8398934c005c")
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "46ba5745-d1a0-46c7-913c-b59197d4b0e3")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0 180)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "78e0b972-4932-4aa4-a2b2-3162765f4b2a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/3D/inductors/AMELA2012S.STEP"
+		(offset
+			(xyz 0 0 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

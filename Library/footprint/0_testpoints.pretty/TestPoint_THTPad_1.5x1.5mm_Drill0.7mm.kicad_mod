@@ -1,0 +1,141 @@
+(footprint "TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm")
+	(tags "test point THT pad rectangle square")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "d14c5075-d847-407e-8fc2-4bc8cfa92e30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c753c15-2bfe-443c-87f2-9cec127a7d8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62da77ef-3230-469b-9e8f-decbd3a639b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b0c80c6-8d76-49fa-97fa-15cac012715d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.95 -0.95)
+		(end 0.95 -0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76c3e415-3209-4cc0-b353-b6f21477e1f6")
+	)
+	(fp_line
+		(start -0.95 0.95)
+		(end -0.95 -0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "004c4603-7c11-4868-9967-2c465139ec7c")
+	)
+	(fp_line
+		(start 0.95 -0.95)
+		(end 0.95 0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b45abfd9-fc38-4ec5-884f-297646bffa59")
+	)
+	(fp_line
+		(start 0.95 0.95)
+		(end -0.95 0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa4cbf7e-4781-4cb4-b9ae-a4cee66ee871")
+	)
+	(fp_rect
+		(start -1.05 -1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b0882263-ea7c-4e5c-a7f5-d4929828273b")
+	)
+	(fp_rect
+		(start -0.95 -0.95)
+		(end 0.95 0.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "795dd658-e0ea-41d9-8272-d73fe5b37aed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "User.1")
+		(uuid "07b5a83a-bb50-4ea8-aa40-3a1ad5c44b28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97951fc5-e7ef-4043-ae8c-64130e269b8e")
+	)
+	(embedded_fonts no)
+)

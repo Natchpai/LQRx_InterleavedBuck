@@ -1,0 +1,354 @@
+(footprint "SW_DIP_SPSTx03_Slide_DSHP03TS_P1.27mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD 3x-dip-switch SPST KingTek_DSHP03TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)")
+	(tags "SMD DIP Switch SPST Slide 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 0 -3.765 0)
+		(layer "F.SilkS")
+		(uuid "72a6b9c6-f272-44d4-af64-fc34131df62d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_DIP_SPSTx03_Slide_DSHP03TS_P1.27mm"
+		(at 0 3.765 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfaaa710-4128-4bce-9da0-c861995163e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43bcba0c-7541-423a-8f35-8b144fbbaa3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ca78f0a-86fd-46fb-a337-233b1db2368d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "button_switch/DIP"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a32eb8b8-a54f-4b5d-9f13-eb1c3a841ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(solder_paste_margin_ratio -0.1)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.8 -2.8)
+		(end 2.8 -2.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd08d8df-3834-4ce3-a77b-a66d093b79c2")
+	)
+	(fp_line
+		(start -2.8 2.8)
+		(end -2.8 -2.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2cad0bc0-cca8-4d3e-87fb-50f29ca8b175")
+	)
+	(fp_line
+		(start 2.8 -2.8)
+		(end 2.8 2.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e916669d-09aa-441e-b4f2-ec8075305d15")
+	)
+	(fp_line
+		(start 2.8 2.8)
+		(end -2.8 2.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61b4f1d4-9728-4219-ae54-95fb972be667")
+	)
+	(fp_poly
+		(pts
+			(xy -4.120615 -2.6038) (xy -3.520615 -2.6038) (xy -3.820615 -2.118541)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cf05e67d-75b0-4d55-9c8e-c83bcd6f45e1")
+	)
+	(fp_rect
+		(start -4.7 -3.02)
+		(end 4.7 3.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "02b94f77-106c-4b50-a6e8-1400de5d852a")
+	)
+	(fp_line
+		(start -2.7 -2.7)
+		(end 2.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b878374-4e56-4edf-8966-b7e557fecaf9")
+	)
+	(fp_line
+		(start -2.7 2.705)
+		(end -2.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "658ee3e4-6d2f-4ba6-a68f-1fae646d935a")
+	)
+	(fp_line
+		(start -0.333333 -1.67)
+		(end -0.333333 -0.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13afadd5-f68e-4c36-9be7-e1a01af9650d")
+	)
+	(fp_line
+		(start -0.333333 -0.4)
+		(end -0.333333 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4760877-ba22-409e-a2a5-53f36686e149")
+	)
+	(fp_line
+		(start -0.333333 0.87)
+		(end -0.333333 1.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "144d6ebe-2dc8-4ad0-a3a8-d8357b078705")
+	)
+	(fp_line
+		(start 2.7 -2.7)
+		(end 2.7 2.705)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8825e7c9-a260-4192-bc65-409424086f96")
+	)
+	(fp_line
+		(start 2.7 2.705)
+		(end -2.7 2.705)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c10fc5ef-2705-41c0-ba25-769ba049cca6")
+	)
+	(fp_rect
+		(start -1 -1.67)
+		(end -0.333333 -0.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "33362ca5-5cbf-47a4-9621-3f31ea8aab84")
+	)
+	(fp_rect
+		(start -1 -1.67)
+		(end 1 -0.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f5572e7-db5a-4cb8-9039-c55064115397")
+	)
+	(fp_rect
+		(start -1 -0.4)
+		(end -0.333333 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3f0d907a-5871-4a4a-a888-9660ce8b1c82")
+	)
+	(fp_rect
+		(start -1 -0.4)
+		(end 1 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "35505132-387b-49c6-babd-a4d195030913")
+	)
+	(fp_rect
+		(start -1 0.87)
+		(end -0.333333 1.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "f37363b5-4641-4586-83f9-fc69db532295")
+	)
+	(fp_rect
+		(start -1 0.87)
+		(end 1 1.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6a36dce4-845b-430a-9e51-1019e0ea5998")
+	)
+	(fp_circle
+		(center -2.15 -2.15)
+		(end -2 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "c8a85b56-a32d-447d-b3ef-479c7c485b20")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.8 0 90)
+		(layer "F.Fab")
+		(uuid "40da42e8-b2ac-4c05-8e8f-646485b063cc")
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+	)
+	(fp_text user "NO"
+		(at 1.9 -1.6 90)
+		(layer "F.Fab")
+		(uuid "410ed84e-ed60-4060-a862-3e74cd0af9b6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.81 -1.27)
+		(size 1.27 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ed280bcf-5dd7-40b0-bba8-b8c5e077290b")
+	)
+	(pad "2" smd roundrect
+		(at -3.81 0)
+		(size 1.27 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0ce52da7-3b4b-473a-9ddc-76f781b43adc")
+	)
+	(pad "3" smd roundrect
+		(at -3.81 1.27)
+		(size 1.27 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d91fd6ce-cccf-4fca-86b8-807c942f4bd8")
+	)
+	(pad "4" smd roundrect
+		(at 3.81 1.27)
+		(size 1.27 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4153931f-bc46-4dda-9ca6-1c3ed482d75a")
+	)
+	(pad "5" smd roundrect
+		(at 3.81 0)
+		(size 1.27 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e3560e63-95c5-48fe-807a-172b70fba0e7")
+	)
+	(pad "6" smd roundrect
+		(at 3.81 -1.27)
+		(size 1.27 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "922e6ae9-f2b7-4a9f-a02b-a81539430127")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx03_Slide_KingTek_DSHP03TS_W7.62mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
