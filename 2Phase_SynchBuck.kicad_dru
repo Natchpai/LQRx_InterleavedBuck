@@ -1,0 +1,36 @@
+(version 1)
+(rule silk_over_via
+    (constraint silk_clearance (min 0.15mm))
+    (condition "A.Type == '*Text' && B.Type == 'Via'"))
+(rule "Via Hole to Track Clearance"
+    (constraint hole_clearance (min 0.25mm))
+    (condition "A.Type == 'Via' && B.Type == 'Track'"))
+(rule "USB Skew Length"
+	(constraint length (max 600ps))
+	(constraint skew (max 50ps))
+	(condition "A.hasNetclass('USB_DP')")
+)
+(rule "Vias under SMD"
+	(constraint disallow micro_via blind_via buried_via)
+	(condition "A.Pad_Type == 'SMD'")
+)
+(rule "Minimum annular width "
+	(constraint annular_width (min 0.13mm))
+)
+(rule "Minimum soldermask sliver "
+	(constraint solder_mask_sliver (min 0.12mm))
+)
+(rule "Minimum text height and thickness F.Slikscreen"
+	(layer "F.Silkscreen")
+	(constraint text_height (min 1mm))
+	(constraint text_thickness (min 0.15mm))
+)
+(rule "Minimum text height and thickness B.Slikscreen"
+	(layer "B.Silkscreen")
+	(constraint text_height (min 1mm))
+	(constraint text_thickness (min 0.15mm))
+)
+(rule "Silk to soldermask clearance 1"
+	(constraint silk_clearance (min 0.1mm))
+	(condition "L == 'F.Mask' || L == 'B.Mask'")
+)
