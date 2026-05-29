@@ -1235,6 +1235,18 @@
 		(uuid "c9098573-f642-4dcd-882e-c418d78ebe62")
 	)
 	(junction
+		(at 139.7 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9aedf9-d9fc-4df0-8faf-a419d6a6a546")
+	)
+	(junction
+		(at 250.19 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "216dfb23-8d84-4398-a493-e0ad8476ec29")
+	)
+	(junction
 		(at 156.21 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1271,6 +1283,12 @@
 		(uuid "c4a73433-767f-47ef-9844-ad91dda76b47")
 	)
 	(junction
+		(at 250.19 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da454234-0d67-4a94-9438-1c5a2343e7a2")
+	)
+	(junction
 		(at 176.53 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1283,26 +1301,26 @@
 		(uuid "e37f3129-ba28-4b73-a540-a1ae628b58a3")
 	)
 	(junction
+		(at 139.7 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eafb7659-0ef5-493e-bee2-455a98a771e6")
+	)
+	(junction
 		(at 147.32 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebfda662-ba69-4561-8769-881f00504420")
 	)
-	(no_connect
-		(at 142.24 90.17)
-		(uuid "536d1b6f-69b0-4884-a2fd-4702bee8e4d2")
-	)
-	(no_connect
-		(at 142.24 100.33)
-		(uuid "96233a5e-d0f5-47c1-a314-340928c31fb8")
-	)
-	(no_connect
-		(at 252.73 113.03)
-		(uuid "bd5158db-5415-4654-8066-9655a6027bb4")
-	)
-	(no_connect
-		(at 252.73 102.87)
-		(uuid "ead873a4-7cd0-4666-b1d7-ec82a4e66320")
+	(wire
+		(pts
+			(xy 142.24 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005376d5-04fc-4b54-acde-9864d500d9c0")
 	)
 	(wire
 		(pts
@@ -1366,6 +1384,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256bc230-1f1c-428e-9e35-98f2e1037834")
+	)
+	(wire
+		(pts
 			(xy 171.45 104.14) (xy 176.53 104.14)
 		)
 		(stroke
@@ -1376,13 +1404,33 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 113.03) (xy 250.19 118.11)
+			(xy 250.19 113.03) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31dcdeaf-32ee-4100-b811-b92a14b0010e")
+	)
+	(wire
+		(pts
+			(xy 250.19 114.3) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a180147-c483-4244-b601-a4386c368c9d")
+	)
+	(wire
+		(pts
+			(xy 252.73 102.87) (xy 252.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acf9c92-a26f-4cb7-a925-623bbad3f366")
 	)
 	(wire
 		(pts
@@ -1393,6 +1441,16 @@
 			(type default)
 		)
 		(uuid "3e15a2cc-88b9-4e0b-a1be-2d6ddd710230")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e659670-ee59-4b1b-9111-21b58edf3d58")
 	)
 	(wire
 		(pts
@@ -1416,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 139.7 90.17)
+			(xy 139.7 85.09) (xy 139.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1433,6 +1491,16 @@
 			(type default)
 		)
 		(uuid "56679961-e99d-4a38-8734-21cd973e28eb")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572e39a7-56e7-4d07-9a53-b59c23832e10")
 	)
 	(wire
 		(pts
@@ -1456,6 +1524,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 88.9) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e88081-0ddd-4453-b0a6-c4bbd0097cee")
+	)
+	(wire
+		(pts
+			(xy 252.73 101.6) (xy 250.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774e638d-eab6-458a-b97b-74b24b8497a5")
+	)
+	(wire
+		(pts
 			(xy 176.53 116.84) (xy 176.53 124.46)
 		)
 		(stroke
@@ -1463,6 +1551,16 @@
 			(type default)
 		)
 		(uuid "7aa2a010-519f-447b-911d-1972cd82d3c8")
+	)
+	(wire
+		(pts
+			(xy 252.73 113.03) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ad5cea-e951-44cf-b357-7ab0c8d16375")
 	)
 	(wire
 		(pts
@@ -1556,6 +1654,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 101.6) (xy 250.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a951fbf9-453f-4b6e-b483-33b94b213dbe")
+	)
+	(wire
+		(pts
 			(xy 280.67 104.14) (xy 280.67 99.06)
 		)
 		(stroke
@@ -1606,6 +1714,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 90.17) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafae69a-5ad3-45f7-9ae9-8ccd6e82455a")
+	)
+	(wire
+		(pts
+			(xy 252.73 114.3) (xy 250.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbeba56-a0ec-4121-bc50-6286dc74e6dd")
+	)
+	(wire
+		(pts
 			(xy 185.42 185.42) (xy 194.31 185.42)
 		)
 		(stroke
@@ -1626,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 102.87) (xy 250.19 99.06)
+			(xy 250.19 102.87) (xy 250.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1794,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 139.7 104.14)
+			(xy 139.7 100.33) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1960,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1938,6 +2066,28 @@
 			)
 		)
 		(property "Supplier Part Number" "4878-ESD5Z3V3CT-ND"
+			(at 260.35 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 260.35 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 260.35 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -2186,6 +2336,28 @@
 			)
 		)
 		(property "Price" "0.44"
+			(at 280.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 280.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 280.67 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2647,6 +2819,72 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 175.26 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 175.26 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 175.26 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1001TCE"
+			(at 175.26 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3602-3"
+			(at 175.26 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 175.26 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b8e7ede-eb92-4644-bd08-7d006c16fe76")
 		)
@@ -2772,6 +3010,72 @@
 			)
 		)
 		(property "Supplier Part Number" "311-1.00KLRCT-ND"
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1001TCE"
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3602-3"
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 167.64 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -2909,6 +3213,28 @@
 			)
 		)
 		(property "Supplier Part Number" "CKN12215-1-ND"
+			(at 252.73 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 252.73 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 252.73 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -3125,7 +3451,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3231,6 +3557,28 @@
 			)
 		)
 		(property "Supplier Part Number" "4878-ESD5Z3V3CT-ND"
+			(at 156.21 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 156.21 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -3379,6 +3727,72 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 139.7 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 139.7 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 139.7 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1002TCE"
+			(at 139.7 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3250-7"
+			(at 139.7 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 139.7 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f2a68ed-52ae-44eb-8fd7-e06070153fbd")
 		)
@@ -3506,6 +3920,28 @@
 			)
 		)
 		(property "Supplier Part Number" "CKN12215-1-ND"
+			(at 142.24 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 142.24 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 142.24 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -3661,6 +4097,28 @@
 			)
 		)
 		(property "Price" "0.44"
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 176.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3888,6 +4346,72 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1002TCE"
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3250-7"
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 130.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19d968b1-a8fb-4a29-92ed-78951ada05d2")
 		)
@@ -3909,7 +4433,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3967,7 +4491,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "DAWNING PRECISION"
+		(property "Manufacturer" ""
 			(at 144.78 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -3978,7 +4502,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SS-B90AP-W-SP2-S085"
+		(property "Manufacturer Part Number" ""
 			(at 144.78 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4000,7 +4524,7 @@
 				)
 			)
 		)
-		(property "Supplier" "ES"
+		(property "Supplier" ""
 			(at 144.78 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4011,7 +4535,73 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "1512-0003-4"
+		(property "Supplier Part Number" ""
+			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "DAWNING PRECISION"
+			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "SS-B90AP-W-SP2-S085"
+			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "1512-0003-4"
+			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 144.78 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4174,6 +4764,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 185.42 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9d72d20-ff69-489a-a03d-0385e52093b8")
 		)
@@ -4195,7 +4807,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4301,6 +4913,28 @@
 			)
 		)
 		(property "Supplier Part Number" "4878-ESD5Z3V3CT-ND"
+			(at 147.32 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 147.32 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 147.32 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -4436,6 +5070,72 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100LRCT-ND"
+			(at 271.78 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 271.78 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 271.78 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 271.78 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1000TCE"
+			(at 271.78 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4399-1"
+			(at 271.78 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 271.78 99.06 90)
 			(hide yes)
 			(show_name no)
