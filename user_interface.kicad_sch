@@ -2076,28 +2076,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 260.35 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 260.35 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3a93ea28-89f9-4585-af6e-ab0cf2166454")
 		)
@@ -2336,28 +2314,6 @@
 			)
 		)
 		(property "Price" "0.44"
-			(at 280.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 280.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 280.67 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2819,28 +2775,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 175.26 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 175.26 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer 2nd" "ROYALOHM"
 			(at 175.26 185.42 90)
 			(hide yes)
@@ -3010,28 +2944,6 @@
 			)
 		)
 		(property "Supplier Part Number" "311-1.00KLRCT-ND"
-			(at 167.64 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 167.64 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 167.64 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -3213,28 +3125,6 @@
 			)
 		)
 		(property "Supplier Part Number" "CKN12215-1-ND"
-			(at 252.73 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 252.73 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 252.73 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -3567,28 +3457,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 156.21 194.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 156.21 194.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5b9c409d-5f2e-44b1-9b35-027245ceacc7")
 		)
@@ -3717,28 +3585,6 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1010KLCT-ND"
-			(at 139.7 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 139.7 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3930,28 +3776,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 142.24 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 142.24 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e4944701-042b-4a83-a52a-60cbc76db5fd")
 		)
@@ -4097,28 +3921,6 @@
 			)
 		)
 		(property "Price" "0.44"
-			(at 176.53 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 176.53 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 176.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4346,28 +4148,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 130.81 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 130.81 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer 2nd" "ROYALOHM"
 			(at 130.81 194.31 0)
 			(hide yes)
@@ -4536,28 +4316,6 @@
 			)
 		)
 		(property "Supplier Part Number" ""
-			(at 144.78 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 144.78 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 144.78 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4764,28 +4522,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 185.42 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 185.42 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d9d72d20-ff69-489a-a03d-0385e52093b8")
 		)
@@ -4923,28 +4659,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 147.32 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 147.32 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c0c27884-34c6-486e-b596-4bf094361a6c")
 		)
@@ -5070,28 +4784,6 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100LRCT-ND"
-			(at 271.78 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 271.78 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 271.78 99.06 90)
 			(hide yes)
 			(show_name no)

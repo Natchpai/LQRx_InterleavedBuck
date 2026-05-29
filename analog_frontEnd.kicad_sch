@@ -2189,28 +2189,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 344.17 205.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 344.17 205.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "aefe3d1a-dc43-4c4a-bacf-f59896d6ffe3")
 		)
@@ -2411,28 +2389,6 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
-			(at 312.42 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 312.42 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 312.42 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -2791,28 +2747,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 142.24 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 142.24 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer 2nd" "Murata"
 			(at 142.24 189.23 0)
 			(hide yes)
@@ -3005,28 +2939,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 276.86 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 276.86 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e89645e1-02a2-461b-be8c-5f4687d26aec")
 		)
@@ -3152,28 +3064,6 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100LRCT-ND"
-			(at 128.27 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 128.27 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 128.27 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -3376,28 +3266,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 321.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 321.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer 2nd" "KYOCERA AVX"
 			(at 321.31 96.52 0)
 			(hide yes)
@@ -3577,28 +3445,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 289.56 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 289.56 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a1c36724-77ef-4a7f-b16e-a207a9d4fa89")
 		)
@@ -3746,28 +3592,6 @@
 			)
 		)
 		(property "Supplier Part Number" "490-8206-1-ND"
-			(at 142.24 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 142.24 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4102,28 +3926,6 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
-			(at 128.27 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 128.27 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 128.27 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -4737,28 +4539,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 142.24 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 142.24 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer 2nd" "KYOCERA AVX"
 			(at 142.24 72.39 0)
 			(hide yes)
@@ -4984,28 +4764,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 342.9 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 342.9 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "42a56efc-a7ce-4f55-94c0-3827b355b9d0")
 		)
@@ -5151,28 +4909,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 276.86 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 276.86 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0b4e89df-bd0b-4e34-be1d-acac2094796b")
 		)
@@ -5298,28 +5034,6 @@
 			)
 		)
 		(property "Supplier Part Number" "296-53200-1-ND"
-			(at 289.56 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 289.56 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 289.56 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5499,28 +5213,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 342.9 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 342.9 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c7606701-d594-477c-8f3a-c814bb404ee1")
 		)
@@ -5643,28 +5335,6 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
-			(at 312.42 193.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 312.42 193.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 312.42 193.04 90)
 			(hide yes)
 			(show_name no)
@@ -5867,28 +5537,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 321.31 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 321.31 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer 2nd" "KYOCERA AVX"
 			(at 321.31 199.39 0)
 			(hide yes)
@@ -6006,28 +5654,6 @@
 		)
 		(property "Description" "test point"
 			(at 344.17 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 344.17 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 344.17 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,28 +5784,6 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
-			(at 128.27 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 128.27 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 128.27 109.22 90)
 			(hide yes)
 			(show_name no)
