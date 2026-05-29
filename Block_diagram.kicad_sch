@@ -295,7 +295,7 @@
 		)
 		(uuid "6b935b39-b7d3-42a1-b368-8626924613e6")
 	)
-	(text "30V"
+	(text "28V"
 		(exclude_from_sim no)
 		(at 113.03 162.56 0)
 		(effects
@@ -319,7 +319,7 @@
 		)
 		(uuid "7e075cde-1952-49d1-99b3-a4f8bf401191")
 	)
-	(text "30V"
+	(text "28V"
 		(exclude_from_sim no)
 		(at 100.33 137.16 0)
 		(effects
@@ -2788,7 +2788,7 @@
 		)
 		(uuid "ec762a74-d3e9-42df-bd97-27a9d09fc4ef")
 	)
-	(text_box "PC9, PB15"
+	(text_box "PA10, PC9"
 		(exclude_from_sim no)
 		(at 246.38 115.57 0)
 		(size 17.78 6.35)

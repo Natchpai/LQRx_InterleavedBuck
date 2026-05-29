@@ -9683,7 +9683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_testpoints:TestPoint_NoSlik_D1.0mm_Top"
+		(property "Footprint" "0_testpoints:TestPoint_NoSlik_D1.0mm_Bottom"
 			(at 80.01 242.57 0)
 			(hide yes)
 			(show_name no)

@@ -4557,17 +4557,6 @@
 		)
 		(uuid "5dd2a7f3-85cc-4ad7-9b91-940b9de7d2a6")
 	)
-	(text "Place start winding dot mark to sw node side"
-		(exclude_from_sim no)
-		(at 227.965 108.585 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 194 1)
-			)
-		)
-		(uuid "61cb6733-2f21-4a52-87d7-94ff2d98f412")
-	)
 	(text "10A"
 		(exclude_from_sim no)
 		(at 229.87 133.985 0)
@@ -5000,7 +4989,7 @@
 	)
 	(text_box "LAYOUT NOTE:\n\nMake the Size of SW Node small as possible but sufficient to handle current"
 		(exclude_from_sim no)
-		(at 241.3 92.71 0)
+		(at 181.61 88.9 0)
 		(size 25.4 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5073,32 +5062,6 @@
 			(justify left top)
 		)
 		(uuid "82199d0a-d12e-4539-9206-7c810f68cf5f")
-	)
-	(text_box "LAYOUT NOTE:\n\nPlace the bootstap capacitor as close to HB, HS pin as possible."
-		(exclude_from_sim no)
-		(at 212.09 92.71 0)
-		(size 24.13 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.5)
-			(type solid)
-			(color 0 0 194 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 194 1)
-		)
-		(effects
-			(font
-				(face "Century Gothic")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(bold yes)
-				(color 0 0 194 1)
-			)
-			(justify left top)
-		)
-		(uuid "cd4468e8-dbe7-42de-86d0-7c56e3b19be9")
 	)
 	(text_box "DESIGN NOTE:\n\n\nInput Capacitors 4.7uFx8 Derating -33% @24V = 25.2uF\n\nCd = 4*C = 100uF\n\nZ_{0} = sqrt(L/C) = sqrt(1/25.2)=0.199ohm\nRd = Z_{0}^{2} / ( Z_{0}/Q - DCR ) \n\nQ=0.9, DCR=15m => Rd = 0.192Ohm."
 		(exclude_from_sim no)

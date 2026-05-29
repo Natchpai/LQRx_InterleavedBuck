@@ -33,6 +33,18 @@
 		)
 		(uuid "4f5e9b52-3ab9-468f-8627-6584163c88cf")
 	)
+	(text "- Changed DAC's PinHeader to FFC-4 P0.5 Connector"
+		(exclude_from_sim no)
+		(at 41.91 100.33 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "5aa76c02-2847-4d89-ae8f-d81fc6b38df2")
+	)
 	(text "- Changed GPIO's PinHeader to FFC-16 P0.5 Connector"
 		(exclude_from_sim no)
 		(at 41.91 95.25 0)
@@ -117,7 +129,7 @@
 		)
 		(uuid "dbe35874-89ec-404d-96f8-1992d2390a23")
 	)
-	(text "- Changed Input and Output Connectors from 6 PIN to 2x(4 PIN) matched ATX12V"
+	(text "- Changed Input and Output Connectors from 6 PIN to 2x(4 PIN) "
 		(exclude_from_sim no)
 		(at 41.91 90.17 0)
 		(effects
@@ -131,7 +143,7 @@
 	)
 	(text "- Removed Temp. Sensor"
 		(exclude_from_sim no)
-		(at 41.91 100.33 0)
+		(at 41.91 105.41 0)
 		(effects
 			(font
 				(face "Arial")
