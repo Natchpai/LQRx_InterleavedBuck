@@ -9,67 +9,7 @@
 		(comment 1 "Revision History")
 	)
 	(lib_symbols)
-	(text "18/05/2026"
-		(exclude_from_sim no)
-		(at 151.13 50.8 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "0a530f7b-4eae-4b69-a883-5fe0fce31b6f")
-	)
-	(text "- Added Turn-Off Diode in parallel with R-Gate in Gate Driver Circuits"
-		(exclude_from_sim no)
-		(at 41.91 80.01 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "4f5e9b52-3ab9-468f-8627-6584163c88cf")
-	)
-	(text "- Changed DAC's PinHeader to FFC-4 P0.5 Connector"
-		(exclude_from_sim no)
-		(at 41.91 100.33 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "5aa76c02-2847-4d89-ae8f-d81fc6b38df2")
-	)
-	(text "- Changed GPIO's PinHeader to FFC-16 P0.5 Connector"
-		(exclude_from_sim no)
-		(at 41.91 95.25 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "7a60c39e-6f44-414a-b3e1-62a85a0319fa")
-	)
-	(text "- Added Input Current Sensor on Power State"
-		(exclude_from_sim no)
-		(at 41.91 74.93 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "7e15b0d9-ee3b-4017-bdcd-cb8a6e3ef5a3")
-	)
-	(text "- First Version of Schematic (Printed)"
+	(text "- (18/05/2026) Initialize the project"
 		(exclude_from_sim no)
 		(at 41.91 59.69 0)
 		(effects
@@ -93,30 +33,6 @@
 		)
 		(uuid "8f9df3ec-6609-4df6-b402-e9b4bbb71cb8")
 	)
-	(text "- Added Series Termination resistor on HRTIM's Line"
-		(exclude_from_sim no)
-		(at 41.91 85.09 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "9b22be40-fdaa-44b9-b875-e51a15f3a5d9")
-	)
-	(text "- Added Rsense on Input Terminal in Power Supplies Circuits"
-		(exclude_from_sim no)
-		(at 41.91 69.85 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "b66de699-740d-45cb-a0ac-1bdbd615496d")
-	)
 	(text "Revison 1.0"
 		(exclude_from_sim no)
 		(at 40.64 50.8 0)
@@ -129,31 +45,7 @@
 		)
 		(uuid "dbe35874-89ec-404d-96f8-1992d2390a23")
 	)
-	(text "- Changed Input and Output Connectors from 6 PIN to 2x(4 PIN) "
-		(exclude_from_sim no)
-		(at 41.91 90.17 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "f4afcd96-1a7a-40b0-97b4-63a9419c466a")
-	)
-	(text "- Removed Temp. Sensor"
-		(exclude_from_sim no)
-		(at 41.91 105.41 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "f4e9bf3d-ac58-4013-aabe-abd558d63f37")
-	)
-	(text "- Added 2x(47uF Polymer Cap.) on Output State"
+	(text "- (03/06/2026) PC Board is Released "
 		(exclude_from_sim no)
 		(at 41.91 64.77 0)
 		(effects
@@ -163,7 +55,7 @@
 			)
 			(justify left)
 		)
-		(uuid "fbebcbe6-cb34-4b4d-ae12-058949becdad")
+		(uuid "e54a750a-e13f-4489-82d7-70a232671f9c")
 	)
 	(polyline
 		(pts
@@ -174,15 +66,5 @@
 			(type default)
 		)
 		(uuid "a82217e1-4a4f-49ca-905b-58bbcacc6f53")
-	)
-	(polyline
-		(pts
-			(xy 38.1 45.72) (xy 152.4 45.72)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "e70a493a-dfdc-4a46-b17f-ffeda55d311c")
 	)
 )

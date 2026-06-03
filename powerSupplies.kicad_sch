@@ -7750,7 +7750,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "243eeb92-fa35-4b11-87e0-93879f67060e")
 		(property "Reference" "NT305"
@@ -11708,7 +11708,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9226fe60-4ce9-4151-a6af-85e7c51a443d")
 		(property "Reference" "NT303"
@@ -13463,7 +13463,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -17776,7 +17776,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f778c7b6-f58e-42ae-8440-0e62d5aa26d5")
 		(property "Reference" "NT304"

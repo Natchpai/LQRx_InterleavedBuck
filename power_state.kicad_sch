@@ -4624,8 +4624,8 @@
 		(at 189.23 273.05 0)
 		(effects
 			(font
+				(face "Calibri")
 				(size 1.27 1.27)
-				(italic yes)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -4637,8 +4637,8 @@
 		(at 189.23 276.86 0)
 		(effects
 			(font
+				(face "Calibri")
 				(size 1.27 1.27)
-				(italic yes)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -4806,11 +4806,11 @@
 	)
 	(text "L_{par} = 1 / [ 2pi f_{1} C_{par} ]"
 		(exclude_from_sim no)
-		(at 165.1 276.86 0)
+		(at 166.37 276.86 0)
 		(effects
 			(font
+				(face "Calibri")
 				(size 1.27 1.27)
-				(italic yes)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -4880,11 +4880,11 @@
 	)
 	(text "C_{par} = C_{EXT} [ f_{2}^{2} / ( f_{1}^{2} - f_{2}^{2} ) ]"
 		(exclude_from_sim no)
-		(at 165.1 273.05 0)
+		(at 166.37 273.05 0)
 		(effects
 			(font
+				(face "Calibri")
 				(size 1.27 1.27)
-				(italic yes)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -13390,7 +13390,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "24228b2c-5943-4603-a28b-6bf9d39518df")
 		(property "Reference" "NT103"
@@ -14018,7 +14018,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2c2575fa-3550-4f44-b0a3-d5a7855daea6")
 		(property "Reference" "NT102"
@@ -21332,7 +21332,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9e2d48e8-1542-4994-a490-b4e407abd08f")
 		(property "Reference" "NT105"
@@ -25357,7 +25357,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cd868080-f351-45fa-a442-9d16b93a53a0")
 		(property "Reference" "NT101"
@@ -25601,7 +25601,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -26032,7 +26032,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)

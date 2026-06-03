@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 6.4,
-          "width": 6.4
+          "drill": 1.8,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
-          "min_island_area": 0.0013161349,
-          "min_thickness": 0.2,
-          "pad_connection": 1,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.25
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -81,7 +81,28 @@
           "width": 0.1511
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|106500000|126250000|3cbe999e-c00c-4a1b-aeeb-5b06f748fee3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|106500000|75250000|c95c9fc0-e3b3-45cd-9e38-6bdca89ad541|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|180000000|102150000|b39d8555-ee69-43ed-9baf-e801d8b5999c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|190500000|126250000|9cb3ca94-ea32-459a-a3ab-b3c864a19d5c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|190500000|75250000|207103b0-93bd-46d8-a132-4363414c3dc7|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1053,7 +1074,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://V2-0_MyCustomTemplate_A3_CGFont_Fabri.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://V2-0_MyCustomTemplate_A4_CGFont_Fabri.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1379,7 +1400,7 @@
     "LAST_PAGE": "E",
     "PROJECT_ID": "LQRx",
     "PROJECT_NAME": "2-Phase Interleaved Sync-Buck Converter",
-    "RELEASE_DATE": "28/05/2026",
+    "RELEASE_DATE": "03/06/2026",
     "REVIEW_DATE": "",
     "REVIEW_NAME": ""
   },
