@@ -5714,6 +5714,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 243.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1001TCE"
+			(at 243.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3602-3"
+			(at 243.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 243.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c78385e-5d53-41b5-b304-8224071f7d8a")
 		)
@@ -5848,6 +5892,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 322.58 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF499JTCE"
+			(at 322.58 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4765-9"
+			(at 322.58 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 322.58 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f7974c5-070c-46b6-9b8c-d609034cb0ab")
 		)
@@ -5972,6 +6060,50 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
+			(at 322.58 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 322.58 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF499JTCE"
+			(at 322.58 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4765-9"
+			(at 322.58 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 322.58 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -6828,6 +6960,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "Murata"
+			(at 186.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H6R8BA01D"
+			(at 186.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0160-0503-6"
+			(at 186.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 186.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a331420-8422-4c79-a84b-130932c8b2a4")
 		)
@@ -7391,6 +7567,50 @@
 			)
 		)
 		(property "Supplier Part Number" "490-GCM1555C1H6R8FA16DCT-ND"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "Murata"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H6R8BA01D"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0160-0503-6"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 167.64 182.88 0)
 			(hide yes)
 			(show_name no)

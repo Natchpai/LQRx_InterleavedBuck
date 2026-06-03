@@ -2217,7 +2217,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2288,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" ""
 			(at 215.9 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -2299,7 +2299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "LTST-C190KFKT"
+		(property "Manufacturer Part Number" ""
 			(at 215.9 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -2321,7 +2321,7 @@
 				)
 			)
 		)
-		(property "Supplier" "ES"
+		(property "Supplier" ""
 			(at 215.9 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -2332,7 +2332,51 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" " 0013-0112-6"
+		(property "Supplier Part Number" ""
+			(at 215.9 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "LITE-ON"
+			(at 215.9 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "LTST-C190KFKT"
+			(at 215.9 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" " 0013-0112-6"
+			(at 215.9 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 215.9 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -2558,6 +2602,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 251.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1003TCE"
+			(at 251.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4421-7"
+			(at 251.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 251.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cb27dd1a-7f9c-4d95-b9ba-f4ea8d9fb48a")
 		)
@@ -2683,6 +2771,50 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100LRCT-ND"
+			(at 199.39 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 199.39 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1000TCE"
+			(at 199.39 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4399-1"
+			(at 199.39 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 199.39 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -2906,6 +3038,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 143.51 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1000TCE"
+			(at 143.51 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4399-1"
+			(at 143.51 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 143.51 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cbd4c982-bead-4347-9dfc-d660ba39f29e")
 		)
@@ -2927,7 +3103,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2998,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" ""
 			(at 160.02 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3009,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "LTST-C190KFKT"
+		(property "Manufacturer Part Number" ""
 			(at 160.02 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3031,7 +3207,7 @@
 				)
 			)
 		)
-		(property "Supplier" "ES"
+		(property "Supplier" ""
 			(at 160.02 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3042,7 +3218,51 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" " 0013-0112-6"
+		(property "Supplier Part Number" ""
+			(at 160.02 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "LITE-ON"
+			(at 160.02 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "LTST-C190KFKT"
+			(at 160.02 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" " 0013-0112-6"
+			(at 160.02 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 160.02 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3422,6 +3642,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1003TCE"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4421-7"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aff9eb70-5143-4649-937a-fef16ae5711b")
 		)
@@ -3443,7 +3707,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3514,7 +3778,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" ""
 			(at 274.32 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3525,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "LTST-C191KRKT"
+		(property "Manufacturer Part Number" ""
 			(at 274.32 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3547,7 +3811,7 @@
 				)
 			)
 		)
-		(property "Supplier" "ES"
+		(property "Supplier" ""
 			(at 274.32 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3558,7 +3822,51 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" " 0013-0100-4"
+		(property "Supplier Part Number" ""
+			(at 274.32 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "LITE-ON"
+			(at 274.32 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "LTST-C191KRKT"
+			(at 274.32 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" " 0013-0100-4"
+			(at 274.32 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 274.32 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3590,7 +3898,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3661,7 +3969,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" ""
 			(at 215.9 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3672,7 +3980,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "LTST-C191TGKT"
+		(property "Manufacturer Part Number" ""
 			(at 215.9 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3694,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Supplier" "ES"
+		(property "Supplier" ""
 			(at 215.9 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3705,7 +4013,51 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" " 0013-0123-1"
+		(property "Supplier Part Number" ""
+			(at 215.9 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "LITE-ON"
+			(at 215.9 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "LTST-C191TGKT"
+			(at 215.9 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" " 0013-0123-1"
+			(at 215.9 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 215.9 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3921,6 +4273,50 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100KLRCT-ND"
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1003TCE"
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4421-7"
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 191.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5394,6 +5790,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 215.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1001TCE"
+			(at 215.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3602-3"
+			(at 215.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 215.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62f3da7d-c3f8-4ac1-8e9e-47c994f15d72")
 		)
@@ -5519,6 +5959,50 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100LRCT-ND"
+			(at 259.08 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 259.08 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1000TCE"
+			(at 259.08 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4399-1"
+			(at 259.08 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 259.08 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -5656,6 +6140,50 @@
 			)
 		)
 		(property "Supplier Part Number" "311-1.00KLRCT-ND"
+			(at 274.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 274.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF1001TCE"
+			(at 274.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-3602-3"
+			(at 274.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 274.32 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5938,6 +6466,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 199.39 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1000TCE"
+			(at 199.39 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4399-1"
+			(at 199.39 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 199.39 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2474a694-76e0-4253-8ef1-4b8e29c68ac2")
 		)
@@ -6065,6 +6637,50 @@
 			)
 		)
 		(property "Supplier Part Number" "311-100KLRCT-ND"
+			(at 191.77 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 191.77 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1003TCE"
+			(at 191.77 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4421-7"
+			(at 191.77 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 191.77 220.98 0)
 			(hide yes)
 			(show_name no)

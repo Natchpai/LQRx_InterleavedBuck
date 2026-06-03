@@ -2399,6 +2399,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 312.42 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF499JTCE"
+			(at 312.42 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4765-9"
+			(at 312.42 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 312.42 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61b2ef93-3ec3-46c7-aeba-098e31eb4d94")
 		)
@@ -2703,6 +2747,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "Murata"
+			(at 142.24 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H102JA01D"
+			(at 142.24 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0160-0208-1"
+			(at 142.24 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 142.24 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0965de1-0f05-4f76-8cfe-6c02cc7cd030")
 		)
@@ -2986,6 +3074,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 128.27 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "CQ02WGF1000TCE"
+			(at 128.27 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4399-1"
+			(at 128.27 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 128.27 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5cd84ca0-acc6-43f3-99a3-dbe07396e80d")
 		)
@@ -3124,6 +3256,50 @@
 			)
 		)
 		(property "Supplier Part Number" "490-8206-1-ND"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "KYOCERA AVX"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0092-0407-5"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3426,6 +3602,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "KYOCERA AVX"
+			(at 142.24 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+			(at 142.24 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0092-0407-5"
+			(at 142.24 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 142.24 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63eaa13f-cec4-4fe3-a114-52ebc3b10a70")
 		)
@@ -3706,6 +3926,50 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
+			(at 128.27 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 128.27 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF499JTCE"
+			(at 128.27 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4765-9"
+			(at 128.27 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 128.27 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -4275,6 +4539,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "KYOCERA AVX"
+			(at 142.24 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+			(at 142.24 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0092-0407-5"
+			(at 142.24 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 142.24 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce2b2719-fcbf-4bb9-8c0f-52e8b703c090")
 		)
@@ -4423,7 +4731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_testpoints:TestPoint_NoSlik_D0.5mm_Bottom"
+		(property "Footprint" "0_testpoints:TestPoint_NoSlik_D0.5mm_Top"
 			(at 342.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4446,6 +4754,94 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" ""
+			(at 342.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" ""
 			(at 342.9 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5037,6 +5433,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 312.42 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF499JTCE"
+			(at 312.42 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4765-9"
+			(at 312.42 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
+			(at 312.42 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "183fe9bc-8e8a-4388-a918-9962a743f572")
 		)
@@ -5175,6 +5615,50 @@
 			)
 		)
 		(property "Supplier Part Number" "490-8206-1-ND"
+			(at 321.31 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "KYOCERA AVX"
+			(at 321.31 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+			(at 321.31 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0092-0407-5"
+			(at 321.31 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5388,6 +5872,50 @@
 			)
 		)
 		(property "Supplier Part Number" "13-RC0402FR-1349R9LCT-ND"
+			(at 128.27 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2nd" "ROYALOHM"
+			(at 128.27 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" "0402WGF499JTCE"
+			(at 128.27 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" "0150-4765-9"
+			(at 128.27 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" "Electronisc Source"
 			(at 128.27 109.22 90)
 			(hide yes)
 			(show_name no)

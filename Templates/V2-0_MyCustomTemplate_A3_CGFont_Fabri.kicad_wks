@@ -91,7 +91,7 @@
 	)
 	(tbtext "Rev:"
 		(name "")
-		(pos 24.587 16.96)
+		(pos 25.087 16.9602)
 		(font
 			(face "Century Gothic")
 			(size 1.524 1.524)
@@ -102,7 +102,7 @@
 	)
 	(tbtext "${REVISION}"
 		(name "")
-		(pos 24.46 13.222)
+		(pos 24.96 13.2222)
 		(font
 			(face "Century Gothic")
 			(size 2.286 2.286) bold
@@ -198,19 +198,9 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${#}"
+	(tbtext "${COMMENT4}"
 		(name "")
 		(pos 19.145 4.545)
-		(font
-			(face "Century Gothic")
-			(size 2.54 2.54) bold
-			(color 0 0 0 1)
-		)
-		(comment "Sheet id")
-	)
-	(tbtext "@{${##}-${EX_PAGE}}"
-		(name "")
-		(pos 8.561 4.545)
 		(font
 			(face "Century Gothic")
 			(size 2.54 2.54) bold
@@ -244,15 +234,6 @@
 		(font
 			(face "Century Gothic")
 			(size 2.54 2.54) bold
-			(color 0 0 0 1)
-		)
-		(comment "Sheet id")
-	)
-	(tbtext "of"
-		(name "")
-		(pos 13.185 4.3012)
-		(font
-			(face "Century Gothic")
 			(color 0 0 0 1)
 		)
 		(comment "Sheet id")
@@ -335,7 +316,7 @@
 	)
 	(tbtext "Date:"
 		(name "")
-		(pos 14.263 16.913)
+		(pos 16.263 16.9132)
 		(font
 			(face "Century Gothic")
 			(size 1.524 1.524)
@@ -346,7 +327,7 @@
 	)
 	(tbtext "${RELEASE_DATE}"
 		(name "")
-		(pos 17.43 13.353)
+		(pos 18.43 13.3532)
 		(font
 			(face "Century Gothic")
 			(color 0 0 0 1)
@@ -416,8 +397,8 @@
 	)
 	(line
 		(name "")
-		(start 18.489 19.0022)
-		(end 18.489 11.0022)
+		(start 19.989 19.0022)
+		(end 19.989 11.0022)
 	)
 	(line
 		(name "")

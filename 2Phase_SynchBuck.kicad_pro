@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 1.8,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -64,9 +64,9 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.25
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -81,7 +81,28 @@
           "width": 0.1511
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|106500000|126250000|3cbe999e-c00c-4a1b-aeeb-5b06f748fee3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|106500000|75250000|c95c9fc0-e3b3-45cd-9e38-6bdca89ad541|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|180000000|102150000|b39d8555-ee69-43ed-9baf-e801d8b5999c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|190500000|126250000|9cb3ca94-ea32-459a-a3ab-b3c864a19d5c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|190500000|75250000|207103b0-93bd-46d8-a132-4363414c3dc7|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -629,7 +650,7 @@
       },
       {
         "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgb(78, 84, 123)",
         "priority": 11,
         "schematic_color": "rgb(72, 72, 72)",
         "tuning_profile": "",
@@ -1053,7 +1074,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://Rev14-1_MyCustomTemplate_A3_CGFont_Fabri.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://V2-0_MyCustomTemplate_A4_CGFont_Fabri.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1061,7 +1082,7 @@
       "method": 1,
       "sort_order": 1
     },
-    "bom_export_filename": "BOM_${PROJECTNAME}_${CURRENT_DATE}.csv",
+    "bom_export_filename": "BOM_${PROJECTNAME}_v${REVISION}_${CURRENT_DATE}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1140,13 +1161,13 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1195,14 +1216,38 @@
           "label": "Type",
           "name": "Type",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer 2nd",
+          "name": "Manufacturer 2nd",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number 2nd",
+          "name": "Manufacturer Part Number 2nd",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number 2nd",
+          "name": "Supplier Part Number 2nd",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2nd",
+          "name": "Supplier 2nd",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${ITEM_NUMBER}"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1223,12 +1268,32 @@
           "visible": false
         },
         {
+          "name": "Supplier Part Number",
+          "url": false,
+          "visible": false
+        },
+        {
           "name": "Supplier",
           "url": false,
           "visible": false
         },
         {
-          "name": "Supplier Part Number",
+          "name": "Manufacturer 2nd",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer Part Number 2nd",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Supplier Part Number 2nd",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Supplier 2nd",
           "url": false,
           "visible": false
         }
@@ -1254,7 +1319,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "kicad-embed://Rev14-1_MyCustomTemplate_A3_CGFont_Sche.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://V2-0_MyCustomTemplate_A3_CGFont_Sche.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -1328,13 +1393,14 @@
     ]
   ],
   "text_variables": {
+    "AUTHOR": "NATCHANON THUENTHAM",
     "DRAWING_DATE": "08/04/2026",
     "DRAWING_NAME": "NATCHPAI",
     "EX_PAGE": "5",
     "LAST_PAGE": "E",
     "PROJECT_ID": "LQRx",
     "PROJECT_NAME": "2-Phase Interleaved Sync-Buck Converter",
-    "RELEASE_DATE": "23/05/2026",
+    "RELEASE_DATE": "03/06/2026",
     "REVIEW_DATE": "",
     "REVIEW_NAME": ""
   },

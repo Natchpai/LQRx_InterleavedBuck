@@ -13,25 +13,26 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.4000000059604645
+      "zones": 0.8799999952316284
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
-      "lockedItems": true,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": false,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": true
     },
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -51,7 +52,7 @@
       "shapes",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fff5f5ff",
+    "visible_layers": "00000000_00000000_0a0a028a_a2a020ff",
     "zone_display_mode": 0
   },
   "git": {
