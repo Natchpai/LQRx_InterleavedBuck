@@ -335,7 +335,7 @@
 	)
 	(tbtext "Date:"
 		(name "")
-		(pos 15.763 16.9132)
+		(pos 16.263 16.9132)
 		(font
 			(face "Century Gothic")
 			(size 1.524 1.524)
@@ -346,7 +346,7 @@
 	)
 	(tbtext "${RELEASE_DATE}"
 		(name "")
-		(pos 17.93 13.3532)
+		(pos 18.43 13.3532)
 		(font
 			(face "Century Gothic")
 			(color 0 0 0 1)
