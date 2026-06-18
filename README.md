@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Digitally controlled **2-Phase Interleaved Synchronous Buck Converter** utilizing a state-space **Linear Quadratic Regulator (LQR)** 
-Optimized for time-critical embedded deployment at a switching frequency of **200 kHz** using the STM32G4 "Digital Power" microcontroller.
+Optimized for time-critical embedded deployment at a switching frequency of **200 kHz** using the STM32G474 microcontroller.
 
 <img height="400" alt="Top Render" src="https://github.com/Natchpai/LQRx_InterleavedBuck/blob/main/Images/Render-Board/2Phase_SynchBuck_Topview.png" /> 
 
@@ -13,9 +13,9 @@ Optimized for time-critical embedded deployment at a switching frequency of **20
 
 ## 🚀 Key Features
 
-*   **2-Phase Interleaved Topology:** Shifts the two phases by 180° to drastically reduce input and output current ripples. This effectively yields a **400 kHz** equivalent ripple frequency, allowing for smaller filter components.
-*   **Augmented LQR Control:** Replaces traditional PI loops with modern state-space control. It features an integrated discrete-time delay compensation matrix.
-*   **Hard Real-Time Execution:** Optimized control algorithms execute completely within **2.2 µs**, well inside the tight 5 µs timing window of the switching cycle.
+*   **2-Phase Interleaved Topology:** Reduce input and output current ripples, yields a **400 kHz** equivalent ripple, allowing for smaller filter components.
+*   **Augmented LQR Control:** Discrete-time State-space control , error-integral and delay compensation matrix.
+*   **Hard Real-Time Execution:** Optimized algorithms execute within **1.8 µs**, inside the 5 µs timing window of the switching cycle.
 
 ---
 
@@ -44,7 +44,7 @@ Optimized for time-critical embedded deployment at a switching frequency of **20
 ---
 
 ## Real-Time Scheduling & Timing
-To eliminate jitter and maintain strict deterministic behavior, the firmware execution respects a tightly designed digital control cycle layout
+To eliminate jitter, the firmware execution respects a tightly designed digital control cycle layout
 * **$t = 0.0\ \mu s$**: The High-Resolution Timer triggers the dual ADC to sample phase currents and output voltage simultaneously.
 * **$t = 0.0 \to 2.2\ \mu s$**: The MCU computes the discrete LQR full-state feedback law and pre-loads the computed duty cycles into the hardware shadow registers.
 * **$t = 5.0\ \mu s$**: Phase 1 hardware registers latch and update the duty cycle, yielding an exact **$1.0\ T_s$** loop latency.
@@ -53,10 +53,9 @@ To eliminate jitter and maintain strict deterministic behavior, the firmware exe
 ---
 
 ## Control Implementation
-The physical plant model is mapped into a discrete **State-Space** structure, augmented to handle physical constraints and execution characteristics
 1.  **Digital Delay Augmentation:** Mathematically models and compensates for the computation and ADC sampling delays within the state vector to prevent phase-margin degradation.
-2.  **Integral Action (Tracking):** Includes an augmented error-integral state to eliminate steady-state tracking error, forcing $V_{out} = V_{ref}$ under varying load conditions.
-3.  **Anti-Windup Protection:** Clamps the integral state accumulator to prevent duty-cycle saturation issues during heavy transient steps or startup.
+2.  **Integral Action:** Includes an augmented error-integral state to eliminate steady-state tracking error, forcing $V_{out} = V_{ref}$ under varying load conditions.
+3.  **Anti-Windup Protection:** Clamps the integral state accumulator to prevent duty-cycle saturation.
   
 
 ## Author
