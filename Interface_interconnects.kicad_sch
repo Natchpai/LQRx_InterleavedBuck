@@ -5,7 +5,7 @@
 	(uuid "6a8635ec-5764-44bb-8bff-160c4d8b42f5")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Interface Interconnects")
 	)
 	(lib_symbols
@@ -6543,7 +6543,7 @@
 			(justify left bottom)
 		)
 		(uuid "df77e885-dcad-4951-9eda-35f1f4fbc426")
-		(property "Net Class" "USB_DP"
+		(property "Netclass" "USB_DP"
 			(at 154.3685 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)

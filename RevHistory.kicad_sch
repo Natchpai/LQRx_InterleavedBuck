@@ -5,10 +5,22 @@
 	(uuid "100d236b-4e57-4b22-860a-123a487c230d")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Revision History")
 	)
 	(lib_symbols)
+	(text "(28/06/2026) \n- Removed the Mosfet that Enable the ICs Gate Driver (p.1)\n- Changed ADC input Capacitor 47pF to 1nF. (p.6)"
+		(exclude_from_sim no)
+		(at 41.91 83.82 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "3d810ce3-d580-4fe9-9b7c-c10092dd6862")
+	)
 	(text "- (18/05/2026) Initialize the project"
 		(exclude_from_sim no)
 		(at 41.91 59.69 0)
@@ -33,6 +45,18 @@
 		)
 		(uuid "8f9df3ec-6609-4df6-b402-e9b4bbb71cb8")
 	)
+	(text "Revison 1.1"
+		(exclude_from_sim no)
+		(at 40.64 72.39 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b4dbf496-5142-4eb9-91dc-bffe88b3a30c")
+	)
 	(text "Revison 1.0"
 		(exclude_from_sim no)
 		(at 40.64 50.8 0)
@@ -56,6 +80,16 @@
 			(justify left)
 		)
 		(uuid "e54a750a-e13f-4489-82d7-70a232671f9c")
+	)
+	(polyline
+		(pts
+			(xy 38.1 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "0b52b3d6-e7ec-461c-a83d-f340175891be")
 	)
 	(polyline
 		(pts

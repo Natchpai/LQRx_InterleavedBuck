@@ -5,7 +5,7 @@
 	(uuid "e0070500-aaa4-4633-8e51-bf2530548401")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "User LEDs")
 		(comment 2 "Status LEDs")
 	)

@@ -5,7 +5,7 @@
 	(uuid "c1d719b4-8676-4d4c-87fa-f1934cfb784e")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Power Connectors")
 	)
 	(lib_symbols
@@ -10262,7 +10262,7 @@
 			(justify left bottom)
 		)
 		(uuid "5cc587dc-c2d8-44df-95b0-a7160dbaebdf")
-		(property "Net Class" "HIGH POWER"
+		(property "Netclass" "HIGH POWER"
 			(at 266.7 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +10296,7 @@
 			(justify left bottom)
 		)
 		(uuid "c98ff4b7-11d7-418f-ae24-fe812fe2f4b7")
-		(property "Net Class" "HIGH POWER"
+		(property "Netclass" "HIGH POWER"
 			(at 133.35 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)

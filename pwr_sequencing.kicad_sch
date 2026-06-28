@@ -5,7 +5,7 @@
 	(uuid "75ddc248-711b-424d-b86e-689da916ba4f")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Power Supply Sequencing")
 	)
 	(lib_symbols)

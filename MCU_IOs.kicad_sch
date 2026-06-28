@@ -5,7 +5,7 @@
 	(uuid "24b45efc-fa97-4777-9254-9559dfe0b138")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Microcontroller IOs")
 		(comment 2 "STM32G474Rx")
 	)
@@ -5368,7 +5368,7 @@
 			(justify left bottom)
 		)
 		(uuid "599d1a9f-5e77-4f74-94dc-dd2c2c12131d")
-		(property "Net Class" "HRTIM"
+		(property "Netclass" "HRTIM"
 			(at 298.45 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5401,7 @@
 			(justify left bottom)
 		)
 		(uuid "85767432-48b8-4fb2-b682-2a7da62b4c3f")
-		(property "Net Class" "LS_ADC"
+		(property "Netclass" "LS_ADC"
 			(at 303.53 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5435,7 +5435,7 @@
 			(justify left bottom)
 		)
 		(uuid "f72265da-9490-4aca-a44e-cc820a7cac74")
-		(property "Net Class" "HS_ADC"
+		(property "Netclass" "HS_ADC"
 			(at 303.53 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)

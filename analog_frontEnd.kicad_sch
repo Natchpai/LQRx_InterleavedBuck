@@ -5,7 +5,7 @@
 	(uuid "2ce2b54f-1ebe-4031-bc4e-640bcff6dd8d")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Analog Front-End")
 	)
 	(lib_symbols
@@ -936,16 +936,6 @@
 		)
 		(uuid "01091263-a824-4419-9669-9488c9729f88")
 	)
-	(text ", Error < 0.02%"
-		(exclude_from_sim no)
-		(at 344.17 82.55 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "06e603e8-5bff-4c35-b34f-eb4e309730ef")
-	)
 	(text "R_{AIN (MAX)} = 39k"
 		(exclude_from_sim no)
 		(at 346.71 168.91 0)
@@ -1027,7 +1017,7 @@
 		)
 		(uuid "35c87263-6632-412e-832f-a9901720dac0")
 	)
-	(text "t_{settling} = ~21.15ns"
+	(text "t_{settling} = ~450ns"
 		(exclude_from_sim no)
 		(at 143.51 62.23 0)
 		(effects
@@ -1163,7 +1153,7 @@
 		)
 		(uuid "80c62446-7680-4cd1-a972-2c16e919ea1f")
 	)
-	(text "t_{settling} = ~21.15ns"
+	(text "t_{settling} = ~450ns"
 		(exclude_from_sim no)
 		(at 143.51 106.68 0)
 		(effects
@@ -1208,7 +1198,7 @@
 		)
 		(uuid "9d34b69f-6e46-4eed-b5db-b828aeea93e3")
 	)
-	(text "t_{settling} = ~21ns"
+	(text "t_{settling} = ~450ns"
 		(exclude_from_sim no)
 		(at 328.93 86.36 0)
 		(effects
@@ -1220,7 +1210,7 @@
 	)
 	(text "t_{settling} = ~9 x RC "
 		(exclude_from_sim no)
-		(at 330.2 82.55 0)
+		(at 328.93 82.55 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1262,7 +1252,7 @@
 		)
 		(uuid "d5fe3635-4333-4129-aba6-150387a59c8d")
 	)
-	(text "t_{settling} = ~21ns"
+	(text "t_{settling} = ~450ns"
 		(exclude_from_sim no)
 		(at 328.93 189.23 0)
 		(effects
@@ -3155,7 +3145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "1n"
 			(at 325.12 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3233,7 +3223,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM1555C1H470GA01D"
+		(property "Manufacturer Part Number" "GRM1555C1H102JA01D"
 			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3255,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "490-8206-1-ND"
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3266,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 2nd" "KYOCERA AVX"
+		(property "Manufacturer 2nd" "Murata"
 			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H102JA01D"
 			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3288,7 +3278,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 2nd" "0092-0407-5"
+		(property "Supplier Part Number 2nd" "0160-0208-1"
 			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3491,7 +3481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "1n"
 			(at 146.05 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +3559,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM1555C1H470GA01D"
+		(property "Manufacturer Part Number" "GRM1555C1H102JA01D"
 			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3591,7 +3581,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "490-8206-1-ND"
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3602,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 2nd" "KYOCERA AVX"
+		(property "Manufacturer 2nd" "Murata"
 			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3613,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H102JA01D"
 			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3624,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 2nd" "0092-0407-5"
+		(property "Supplier Part Number 2nd" "0160-0208-1"
 			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4428,7 +4418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "1n"
 			(at 146.05 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM1555C1H470GA01D"
+		(property "Manufacturer Part Number" "GRM1555C1H102JA01D"
 			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4528,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "490-8206-1-ND"
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4539,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 2nd" "KYOCERA AVX"
+		(property "Manufacturer 2nd" "Murata"
 			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4550,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H102JA01D"
 			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4561,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 2nd" "0092-0407-5"
+		(property "Supplier Part Number 2nd" "0160-0208-1"
 			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5514,7 +5504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "1n"
 			(at 325.12 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +5582,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM1555C1H470GA01D"
+		(property "Manufacturer Part Number" "GRM1555C1H102JA01D"
 			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5614,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "490-8206-1-ND"
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5625,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 2nd" "KYOCERA AVX"
+		(property "Manufacturer 2nd" "Murata"
 			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5636,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 2nd" "04025A470JAT2A"
+		(property "Manufacturer Part Number 2nd" "GRM1555C1H102JA01D"
 			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5647,7 +5637,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 2nd" "0092-0407-5"
+		(property "Supplier Part Number 2nd" "0160-0208-1"
 			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)

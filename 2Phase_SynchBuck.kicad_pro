@@ -299,7 +299,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1082,7 +1082,7 @@
       "method": 1,
       "sort_order": 1
     },
-    "bom_export_filename": "BOM_${PROJECTNAME}_v${REVISION}_${CURRENT_DATE}.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
