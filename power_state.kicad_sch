@@ -3938,7 +3938,7 @@
 	)
 	(text "ESD Sensitive"
 		(exclude_from_sim no)
-		(at 247.65 274.32 0)
+		(at 223.52 316.23 0)
 		(effects
 			(font
 				(face "Century Gothic")
@@ -3988,7 +3988,7 @@
 	)
 	(text "Hot surface"
 		(exclude_from_sim no)
-		(at 233.68 274.32 0)
+		(at 209.55 316.23 0)
 		(effects
 			(font
 				(face "Century Gothic")
@@ -4150,14 +4150,15 @@
 		)
 		(uuid "5806f5d2-297c-4c34-8269-46f3b924cd4e")
 	)
-	(text "A1 GAIN: 20V/V"
+	(text "A1's GAIN: 20V/V\nI = 1/20 x Vout/0.005"
 		(exclude_from_sim no)
-		(at 95.25 74.93 0)
+		(at 88.9 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
+			(justify left)
 		)
 		(uuid "5dd2a7f3-85cc-4ad7-9b91-940b9de7d2a6")
 	)
@@ -13669,7 +13670,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Hot_Large")
-		(at 233.68 266.7 0)
+		(at 209.55 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13680,7 +13681,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fac6517-e521-4c3a-aa27-718790eb6456")
 		(property "Reference" "G101"
-			(at 233.68 261.62 0)
+			(at 209.55 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13691,7 +13692,7 @@
 			)
 		)
 		(property "Value" "SYM_Hot_Large"
-			(at 233.68 273.05 0)
+			(at 209.55 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,7 +13703,7 @@
 			)
 		)
 		(property "Footprint" "0_symbols:hot_surface"
-			(at 233.68 271.78 0)
+			(at 209.55 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,7 +13714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.442 271.78 0)
+			(at 210.312 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13724,7 +13725,7 @@
 			)
 		)
 		(property "Description" "Hot surface warning symbol, large"
-			(at 233.68 266.7 0)
+			(at 209.55 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15091,7 +15092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -17980,7 +17981,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -23868,7 +23869,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_ESD_Large")
-		(at 247.65 266.7 0)
+		(at 223.52 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23879,7 +23880,7 @@
 		(fields_autoplaced yes)
 		(uuid "c747e759-0d36-41f0-8236-a64895ee54bf")
 		(property "Reference" "G102"
-			(at 247.65 261.62 0)
+			(at 223.52 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23890,7 +23891,7 @@
 			)
 		)
 		(property "Value" "SYM_ESD_Large"
-			(at 247.65 273.05 0)
+			(at 223.52 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23901,7 +23902,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
-			(at 247.523 267.462 0)
+			(at 223.393 309.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23912,7 +23913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.523 267.462 0)
+			(at 223.393 309.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23923,7 +23924,7 @@
 			)
 		)
 		(property "Description" "ESD warning/\"Do not touch\" symbol, large"
-			(at 247.65 266.7 0)
+			(at 223.52 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

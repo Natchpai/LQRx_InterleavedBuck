@@ -9,9 +9,9 @@
 		(comment 1 "Revision History")
 	)
 	(lib_symbols)
-	(text "(28/06/2026) \n- Removed the Mosfet that Enable the ICs Gate Driver (p.1)\n- Changed ADC input Capacitor 47pF to 1nF. (p.6)"
+	(text "(28/06/2026) \n- Remove the Mosfet that Enable the ICs Gate Driver (p.1)\n- Change ADC input Capacitor 47pF to 1nF. (p.6)\n- Change op-amp U601 U602 to correctly part number (p.6)"
 		(exclude_from_sim no)
-		(at 41.91 83.82 0)
+		(at 41.91 85.09 0)
 		(effects
 			(font
 				(face "Arial")

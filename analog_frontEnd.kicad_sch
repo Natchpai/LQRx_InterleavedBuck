@@ -1228,30 +1228,6 @@
 		)
 		(uuid "c71068ae-d8b4-472e-a6f5-47dba94e924f")
 	)
-	(text "No buffer and short this JP: t_{settling} = ~4us"
-		(exclude_from_sim no)
-		(at 285.75 226.06 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "cf5b2e3b-724d-4d28-b4a6-7890d37294d4")
-	)
-	(text "t_{ACQ} must greater than t_{settling} for accuracy."
-		(exclude_from_sim no)
-		(at 276.86 134.62 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-				(italic yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "d5fe3635-4333-4129-aba6-150387a59c8d")
-	)
 	(text "t_{settling} = ~450ns"
 		(exclude_from_sim no)
 		(at 328.93 189.23 0)
@@ -1298,7 +1274,7 @@
 	)
 	(text_box "LAYOUT NOTE:\n\nPlacing OpAmp and RC Filter close to the ADC input or Analog Zone"
 		(exclude_from_sim no)
-		(at 235.2492 117.7806 0)
+		(at 235.2492 125.4006 0)
 		(size 40.3408 10.4894)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1323,7 +1299,7 @@
 	)
 	(text_box "LAYOUT NOTE:\n\nRount away from magnetic compenents"
 		(exclude_from_sim no)
-		(at 278.13 118.11 0)
+		(at 278.13 125.73 0)
 		(size 40.3408 10.0062)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3336,7 +3312,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV9061SIDBVR"
+		(property "Value" "TLV9061IDBVR"
 			(at 295.91 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +3367,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "TLV9061SIDBVR"
+		(property "Manufacturer Part Number" "TLV9061IDBVR"
 			(at 289.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3424,7 +3400,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "296-53200-1-ND"
+		(property "Supplier Part Number" "296-52284-1-ND"
 			(at 289.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5023,7 +4999,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV9061SIDBVR"
+		(property "Value" "TLV9061IDBVR"
 			(at 295.91 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,7 +5054,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "TLV9061SIDBVR"
+		(property "Manufacturer Part Number" "TLV9061IDBVR"
 			(at 289.56 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5087,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "296-53200-1-ND"
+		(property "Supplier Part Number" "296-52284-1-ND"
 			(at 289.56 193.04 0)
 			(hide yes)
 			(show_name no)
