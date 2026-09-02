@@ -83,10 +83,6 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|106500000|126250000|3cbe999e-c00c-4a1b-aeeb-5b06f748fee3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|106500000|75250000|c95c9fc0-e3b3-45cd-9e38-6bdca89ad541|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -1072,6 +1068,7 @@
       "netlist": "",
       "plot": "Manufacturing/Fabrication/Gerber/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://V2-0_MyCustomTemplate_A4_CGFont_Fabri.kicad_wks"
