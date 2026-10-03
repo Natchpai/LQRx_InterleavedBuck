@@ -1025,7 +1025,7 @@
 		)
 		(uuid "2430188d-a087-4ee2-b283-016b0164cb61")
 	)
-	(text "30V 12A MAX "
+	(text "30V 20A MAX "
 		(exclude_from_sim no)
 		(at 163.83 104.14 0)
 		(effects
