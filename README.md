@@ -7,7 +7,7 @@
 Digitally controlled **2-Phase Interleaved Synchronous Buck Converter** utilizing a state-space **Linear Quadratic Regulator** 
 Optimized for time-critical embedded deployment at a switching frequency of **200 kHz** using the STM32G474 microcontroller.
 
-<img height="400" alt="Top Render" src="https://github.com/Natchpai/LQRx_InterleavedBuck/blob/main/Images/Render-Board/2Phase_SynchBuck_Topview.png" /> 
+<img height="400" alt="Top Render" src="https://github.com/Natchpai/LQRx_InterleavedBuck/blob/main/Images/Render-Board/2Phase_SynchBuck_Topview_v1-1 (Large).png" /> 
 
 ---
 
