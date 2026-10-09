@@ -5,7 +5,7 @@
 	(uuid "fae5264f-f5dc-46c6-a976-56c476058d28")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Top Hierarchical View")
 		(comment 2 "(Top Level View)")
 	)

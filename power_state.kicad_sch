@@ -5,201 +5,12 @@
 	(uuid "279079ba-1853-4626-9076-1fe355e3a5ac")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Power State")
 		(comment 2 "2-Phase Buck & Gate Driver")
 	)
 	(lib_symbols
-		(symbol "0_Inductor:L_dot"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_dot_0_1"
-				(arc
-					(start -2.54 0)
-					(mid -1.905 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.6323)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_dot_1_1"
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0_currentSensors:ACS37030LLZATR"
+		(symbol "0_CurrentSensors:ACS37030LLZATR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -382,7 +193,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_currentSensors:INA187Ax"
+		(symbol "0_CurrentSensors:INA187Ax"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -578,7 +389,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_diode:BAT54XV2T5G"
+		(symbol "0_Diode:BAT54XV2T5G"
 			(pin_numbers
 				(hide yes)
 			)
@@ -744,7 +555,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_gateDrivers:UCC27282DRCR"
+		(symbol "0_GateDrivers:UCC27282DRCR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1029,7 +840,196 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_infineon_MOSFET:BSZ018N04LS6"
+		(symbol "0_Inductor:L_dot"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_dot_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_dot_1_1"
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_Infineon_MOSFET:BSZ018N04LS6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1338,7 +1338,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_infineon_MOSFET:IQE013N04LM6"
+		(symbol "0_Infineon_MOSFET:IQE013N04LM6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1647,7 +1647,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_miscellaneous:BlankSymbol"
+		(symbol "0_Miscellaneous:BlankSymbol"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1716,402 +1716,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0_mosfet:GS2N7002KW"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "GS2N7002KW"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "0_SOT:SOT-323_SC-70"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/GS2N7002KW.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "60V Vds, 0.34 Id, N-CHANNEL ENHANCEMENT MODE MOSFET"
-				(at 1.27 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT-323"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GS2N7002KW_0_1"
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GS2N7002KW_1_1"
-				(polyline
-					(pts
-						(xy -2.7925 -1.0086) (xy -2.6655 -1.1356) (xy -1.9035 -1.1356) (xy -1.7765 -1.2626)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.286 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.2845 -1.1356) (xy -2.6655 -1.7706) (xy -1.9035 -1.7706) (xy -2.2845 -1.1356)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.2845 -3.1676) (xy -1.9035 -2.5326) (xy -2.6655 -2.5326) (xy -2.2845 -3.1676)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.7765 -3.2946) (xy -1.9035 -3.1676) (xy -2.6655 -3.1676) (xy -2.7925 -3.0406)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -6.35 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -4334,7 +3938,7 @@
 	)
 	(text "ESD Sensitive"
 		(exclude_from_sim no)
-		(at 247.65 274.32 0)
+		(at 223.52 316.23 0)
 		(effects
 			(font
 				(face "Century Gothic")
@@ -4384,7 +3988,7 @@
 	)
 	(text "Hot surface"
 		(exclude_from_sim no)
-		(at 233.68 274.32 0)
+		(at 209.55 316.23 0)
 		(effects
 			(font
 				(face "Century Gothic")
@@ -4546,14 +4150,15 @@
 		)
 		(uuid "5806f5d2-297c-4c34-8269-46f3b924cd4e")
 	)
-	(text "A1 GAIN: 20V/V"
+	(text "A1's GAIN: 20V/V\nI = 1/20 x Vout/0.005"
 		(exclude_from_sim no)
-		(at 95.25 74.93 0)
+		(at 88.9 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
+			(justify left)
 		)
 		(uuid "5dd2a7f3-85cc-4ad7-9b91-940b9de7d2a6")
 	)
@@ -5299,6 +4904,12 @@
 		(uuid "65e89c31-0945-4765-a73c-f6edf9fd577c")
 	)
 	(junction
+		(at 73.66 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "663d8863-e8c3-4341-9a2f-3408fc672c10")
+	)
+	(junction
 		(at 48.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5507,6 +5118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ade5609a-e4d1-4b9d-9131-a619133d272b")
+	)
+	(junction
+		(at 73.66 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4b90e4-67e1-423b-91ff-ebf8bcf8f3b6")
 	)
 	(junction
 		(at 76.2 78.74)
@@ -6194,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 121.92) (xy 66.04 121.92)
+			(xy 59.69 121.92) (xy 73.66 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7474,16 +7091,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 128.27) (xy 73.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f38183a-fc5c-40ee-9777-765fb20b1c70")
-	)
-	(wire
-		(pts
 			(xy 123.19 179.07) (xy 123.19 181.61)
 		)
 		(stroke
@@ -7734,6 +7341,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 121.92) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c251a9-9aa4-4573-b4e9-e5bef4e8b830")
+	)
+	(wire
+		(pts
 			(xy 336.55 204.47) (xy 347.98 204.47)
 		)
 		(stroke
@@ -7804,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 110.49) (xy 73.66 116.84)
+			(xy 73.66 110.49) (xy 73.66 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8024,7 +7641,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 184.15) (xy 73.66 187.96)
+			(xy 73.66 184.15) (xy 73.66 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8311,6 +7928,16 @@
 			(type default)
 		)
 		(uuid "b9515943-e4b9-48dd-a173-28eb9f37c915")
+	)
+	(wire
+		(pts
+			(xy 73.66 193.04) (xy 73.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98adf07-ed7e-41c8-a2f2-2cafa2612d4f")
 	)
 	(wire
 		(pts
@@ -8734,16 +8361,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 199.39) (xy 73.66 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e434d3a2-1a82-44ae-b8fa-08558964903c")
-	)
-	(wire
-		(pts
 			(xy 116.84 149.86) (xy 116.84 143.51)
 		)
 		(stroke
@@ -8854,7 +8471,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 193.04) (xy 66.04 193.04)
+			(xy 59.69 193.04) (xy 73.66 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9772,16 +9389,6 @@
 		)
 		(uuid "46a51e90-01a6-4b53-9bf9-2bb08fa28b3f")
 	)
-	(label "D_EN1"
-		(at 73.66 116.84 90)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e4b921f-df5b-42b4-b2d6-e186915dde12")
-	)
 	(label "SENSE_VREF1"
 		(at 73.66 267.97 0)
 		(effects
@@ -9831,16 +9438,6 @@
 			(justify left bottom)
 		)
 		(uuid "6d15b800-2ff8-424f-85ff-998a24eb6f01")
-	)
-	(label "D_EN2"
-		(at 73.66 187.96 90)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "713b396a-d0b4-4f26-a088-73b335effc78")
 	)
 	(label "DRV_HS1"
 		(at 109.22 137.16 0)
@@ -10053,16 +9650,6 @@
 		)
 		(uuid "ee25c1ce-74ee-472f-bfab-3d02267eca3b")
 	)
-	(label "GATE_EN1"
-		(at 66.04 121.92 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee56607a-55c9-43db-8735-00723fd54a09")
-	)
 	(label "PWR_SWNode_P1"
 		(at 72.39 255.27 0)
 		(effects
@@ -10092,17 +9679,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6929f8a-aaf9-4900-860a-6ff9053be53f")
-	)
-	(label "GATE_EN2"
-		(at 66.04 193.04 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(thickness 0.0794)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6cd4134-c1b0-4f5e-978a-40bb29bdd081")
 	)
 	(label "DRV_HB1"
 		(at 109.22 130.81 0)
@@ -10268,7 +9844,7 @@
 			(justify left bottom)
 		)
 		(uuid "24b2aeb4-fa1c-4ebb-9fee-ad4b2030c887")
-		(property "Net Class" "HIGH POWER"
+		(property "Netclass" "HIGH POWER"
 			(at 110.49 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10303,7 +9879,7 @@
 			(justify left bottom)
 		)
 		(uuid "cf781acb-995e-4083-86e8-eb17a7e08098")
-		(property "Net Class" "HIGH POWER"
+		(property "Netclass" "HIGH POWER"
 			(at 292.1 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10337,7 +9913,7 @@
 			(justify left bottom)
 		)
 		(uuid "d531f83a-4f5b-4cea-a786-919bd642c187")
-		(property "Net Class" "HIGH POWER"
+		(property "Netclass" "HIGH POWER"
 			(at 220.98 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12421,7 +11997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -13230,7 +12806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_currentSensors:ACS37030LLZATR")
+		(lib_id "0_CurrentSensors:ACS37030LLZATR")
 		(at 247.65 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -13780,7 +13356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_currentSensors:ACS37030LLZATR")
+		(lib_id "0_CurrentSensors:ACS37030LLZATR")
 		(at 247.65 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -14094,7 +13670,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Hot_Large")
-		(at 233.68 266.7 0)
+		(at 209.55 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14105,7 +13681,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fac6517-e521-4c3a-aa27-718790eb6456")
 		(property "Reference" "G101"
-			(at 233.68 261.62 0)
+			(at 209.55 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14116,7 +13692,7 @@
 			)
 		)
 		(property "Value" "SYM_Hot_Large"
-			(at 233.68 273.05 0)
+			(at 209.55 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14127,7 +13703,7 @@
 			)
 		)
 		(property "Footprint" "0_symbols:hot_surface"
-			(at 233.68 271.78 0)
+			(at 209.55 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14138,7 +13714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.442 271.78 0)
+			(at 210.312 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14149,7 +13725,7 @@
 			)
 		)
 		(property "Description" "Hot surface warning symbol, large"
-			(at 233.68 266.7 0)
+			(at 209.55 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14964,147 +14540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_mosfet:GS2N7002KW")
-		(at 71.12 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ea1c694-9460-42bd-8235-88e463aab7e6")
-		(property "Reference" "Q105"
-			(at 77.47 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GS2N7002KW"
-			(at 60.96 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_SOT:SOT-323_SC-70"
-			(at 76.2 123.825 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/GS2N7002KW.pdf"
-			(at 76.2 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "60V Vds, 0.34 Id, N-CHANNEL ENHANCEMENT MODE MOSFET"
-			(at 72.39 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Good-Ark"
-			(at 71.12 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GS2N7002KW"
-			(at 71.12 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "3.23"
-			(at 71.12 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 71.12 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part Number" "4786-GS2N7002KWCT-ND"
-			(at 71.12 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ecd0d25-fa93-4d6c-9dfa-ce45fc93f6b7")
-		)
-		(pin "2"
-			(uuid "e57e8b4d-54cb-4383-b0fd-07991240dbe8")
-		)
-		(pin "3"
-			(uuid "e84304a7-3fc3-4a1a-a979-0cd8c237a2fd")
-		)
-		(instances
-			(project "2Phase_SynchBuck"
-				(path "/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/d5388e5d-ce73-495c-8f4e-f5dc7801722f"
-					(reference "Q105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 102.87 0)
 		(unit 1)
@@ -15657,10 +15092,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46c275b5-75d1-45b5-92b0-aa77706c7886")
 		(property "Reference" "R110"
@@ -15795,7 +15230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -15929,7 +15364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:IQE013N04LM6")
+		(lib_id "0_Infineon_MOSFET:IQE013N04LM6")
 		(at 162.56 222.25 0)
 		(unit 1)
 		(body_style 1)
@@ -16977,7 +16412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_currentSensors:INA187Ax")
+		(lib_id "0_CurrentSensors:INA187Ax")
 		(at 81.28 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -17095,6 +16530,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "1c8d39a2-9cf7-4cb9-88cc-f01e6e4c1417")
 		)
@@ -17123,7 +16602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:IQE013N04LM6")
+		(lib_id "0_Infineon_MOSFET:IQE013N04LM6")
 		(at 162.56 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -17429,147 +16908,6 @@
 			(project "2Phase_SynchBuck"
 				(path "/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/d5388e5d-ce73-495c-8f4e-f5dc7801722f"
 					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_mosfet:GS2N7002KW")
-		(at 71.12 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d10603b-cece-480f-90aa-54968ee6c5fc")
-		(property "Reference" "Q106"
-			(at 77.47 192.3415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GS2N7002KW"
-			(at 60.96 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_SOT:SOT-323_SC-70"
-			(at 76.2 194.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/GS2N7002KW.pdf"
-			(at 76.2 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "60V Vds, 0.34 Id, N-CHANNEL ENHANCEMENT MODE MOSFET"
-			(at 72.39 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Good-Ark"
-			(at 71.12 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GS2N7002KW"
-			(at 71.12 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "3.23"
-			(at 71.12 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 71.12 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part Number" "4786-GS2N7002KWCT-ND"
-			(at 71.12 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aae9851b-1249-4251-bae3-5e48f4c6f53e")
-		)
-		(pin "2"
-			(uuid "8efe3d94-bc43-4e94-916d-6fa4397aff6b")
-		)
-		(pin "3"
-			(uuid "ffcb615f-04bf-4531-9851-576cd3ec7b16")
-		)
-		(instances
-			(project "2Phase_SynchBuck"
-				(path "/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/d5388e5d-ce73-495c-8f4e-f5dc7801722f"
-					(reference "Q106")
 					(unit 1)
 				)
 			)
@@ -18687,10 +18025,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7eff8840-4f65-4fc3-ac2d-4ff3e141c693")
 		(property "Reference" "R104"
@@ -18904,7 +18242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:BSZ018N04LS6")
+		(lib_id "0_Infineon_MOSFET:BSZ018N04LS6")
 		(at 162.56 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -19050,7 +18388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 215.9 0)
 		(unit 1)
 		(body_style 1)
@@ -20858,7 +20196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:BSZ018N04LS6")
+		(lib_id "0_Infineon_MOSFET:BSZ018N04LS6")
 		(at 162.56 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -21961,7 +21299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_miscellaneous:BlankSymbol")
+		(lib_id "0_Miscellaneous:BlankSymbol")
 		(at 241.3 308.61 0)
 		(unit 1)
 		(body_style 1)
@@ -22486,7 +21824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_gateDrivers:UCC27282DRCR")
+		(lib_id "0_GateDrivers:UCC27282DRCR")
 		(at 97.79 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -23850,7 +23188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_gateDrivers:UCC27282DRCR")
+		(lib_id "0_GateDrivers:UCC27282DRCR")
 		(at 97.79 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -24575,7 +23913,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_ESD_Large")
-		(at 247.65 266.7 0)
+		(at 223.52 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24586,7 +23924,7 @@
 		(fields_autoplaced yes)
 		(uuid "c747e759-0d36-41f0-8236-a64895ee54bf")
 		(property "Reference" "G102"
-			(at 247.65 261.62 0)
+			(at 223.52 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24597,7 +23935,7 @@
 			)
 		)
 		(property "Value" "SYM_ESD_Large"
-			(at 247.65 273.05 0)
+			(at 223.52 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24608,7 +23946,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
-			(at 247.523 267.462 0)
+			(at 223.393 309.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24619,7 +23957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.523 267.462 0)
+			(at 223.393 309.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24630,7 +23968,7 @@
 			)
 		)
 		(property "Description" "ESD warning/\"Do not touch\" symbol, large"
-			(at 247.65 266.7 0)
+			(at 223.52 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26214,7 +25552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 190.5 0)
 		(unit 1)
 		(body_style 1)

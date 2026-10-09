@@ -5,11 +5,11 @@
 	(uuid "6a8635ec-5764-44bb-8bff-160c4d8b42f5")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Interface Interconnects")
 	)
 	(lib_symbols
-		(symbol "0_connectors:Conn_01x04_MountingPin"
+		(symbol "0_Connectors:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -256,7 +256,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_connectors:Conn_01x16_MountingPin"
+		(symbol "0_Connectors:Conn_01x16_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -851,7 +851,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_connectors:Conn_JTAG_STDC10"
+		(symbol "0_Connectors:Conn_JTAG_STDC10"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1131,7 +1131,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_connectors:USB_C_Receptacle_USB2.0_16P"
+		(symbol "0_Connectors:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1844,7 +1844,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_protection:PUSB3FR4Z"
+		(symbol "0_Protection:PUSB3FR4Z"
 			(pin_names
 				(hide yes)
 			)
@@ -2397,7 +2397,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_protection:SP3031-01ETG"
+		(symbol "0_Protection:SP3031-01ETG"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2548,7 +2548,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_protection:USBLC6-2SC6"
+		(symbol "0_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
 			)
@@ -5125,17 +5125,6 @@
 		)
 		(uuid "7730df7a-060a-4e7d-8a94-c066248e0f3f")
 	)
-	(polyline
-		(pts
-			(xy 109.855 205.105) (xy 111.125 206.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "77f1dca1-a568-4d0f-800d-3502f780b37b")
-	)
 	(wire
 		(pts
 			(xy 246.38 64.77) (xy 273.05 64.77)
@@ -5375,17 +5364,6 @@
 			(type default)
 		)
 		(uuid "9976628d-7a07-4cf1-8e03-d819da83e937")
-	)
-	(polyline
-		(pts
-			(xy 109.855 206.375) (xy 111.125 205.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "9ad52dce-da22-4ec6-a81d-3f114143d7d4")
 	)
 	(wire
 		(pts
@@ -6543,7 +6521,7 @@
 			(justify left bottom)
 		)
 		(uuid "df77e885-dcad-4951-9eda-35f1f4fbc426")
-		(property "Net Class" "USB_DP"
+		(property "Netclass" "USB_DP"
 			(at 154.3685 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +6760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_01x04_MountingPin")
+		(lib_id "0_Connectors:Conn_01x04_MountingPin")
 		(at 229.87 176.53 0)
 		(mirror y)
 		(unit 1)
@@ -7219,7 +7197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:SP3031-01ETG")
+		(lib_id "0_Protection:SP3031-01ETG")
 		(at 113.03 165.1 270)
 		(unit 1)
 		(body_style 1)
@@ -7355,7 +7333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:PUSB3FR4Z")
+		(lib_id "0_Protection:PUSB3FR4Z")
 		(at 110.49 210.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7776,7 +7754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:SP3031-01ETG")
+		(lib_id "0_Protection:SP3031-01ETG")
 		(at 251.46 186.69 270)
 		(unit 1)
 		(body_style 1)
@@ -8584,7 +8562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:SP3031-01ETG")
+		(lib_id "0_Protection:SP3031-01ETG")
 		(at 251.46 158.75 270)
 		(unit 1)
 		(body_style 1)
@@ -9069,7 +9047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:USBLC6-2SC6")
+		(lib_id "0_Protection:USBLC6-2SC6")
 		(at 116.84 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -10677,7 +10655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:PUSB3FR4Z")
+		(lib_id "0_Protection:PUSB3FR4Z")
 		(at 295.91 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -11390,7 +11368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_JTAG_STDC10")
+		(lib_id "0_Connectors:Conn_JTAG_STDC10")
 		(at 86.36 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -12032,7 +12010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_01x16_MountingPin")
+		(lib_id "0_Connectors:Conn_01x16_MountingPin")
 		(at 240.03 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -12291,7 +12269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:PUSB3FR4Z")
+		(lib_id "0_Protection:PUSB3FR4Z")
 		(at 273.05 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -13124,7 +13102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:USB_C_Receptacle_USB2.0_16P")
+		(lib_id "0_Connectors:USB_C_Receptacle_USB2.0_16P")
 		(at 83.82 83.82 0)
 		(unit 1)
 		(body_style 1)

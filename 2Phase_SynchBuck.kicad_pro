@@ -83,10 +83,6 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|106500000|126250000|3cbe999e-c00c-4a1b-aeeb-5b06f748fee3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|106500000|75250000|c95c9fc0-e3b3-45cd-9e38-6bdca89ad541|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -299,7 +295,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -319,20 +315,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|1104900|2082800|11c2a86c-8e6c-4e72-b70e-0e8c5f4ac2e2|db437ad6-8069-4741-a46c-07c2f3dcb3d1|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|",
-        ""
-      ],
-      [
-        "no_connect_connected|1104900|2082800|1afd8640-a3c5-4a58-beb0-7bef6796e831|db437ad6-8069-4741-a46c-07c2f3dcb3d1|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|",
-        ""
-      ],
-      [
-        "no_connect_connected|1117600|2019300|11c2a86c-8e6c-4e72-b70e-0e8c5f4ac2e2|db437ad6-8069-4741-a46c-07c2f3dcb3d1|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -545,7 +528,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -1072,6 +1055,7 @@
       "netlist": "",
       "plot": "Manufacturing/Fabrication/Gerber/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://V2-0_MyCustomTemplate_A4_CGFont_Fabri.kicad_wks"
@@ -1082,7 +1066,7 @@
       "method": 1,
       "sort_order": 1
     },
-    "bom_export_filename": "BOM_${PROJECTNAME}_v${REVISION}_${CURRENT_DATE}.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1400,7 +1384,7 @@
     "LAST_PAGE": "E",
     "PROJECT_ID": "LQRx",
     "PROJECT_NAME": "2-Phase Interleaved Sync-Buck Converter",
-    "RELEASE_DATE": "03/06/2026",
+    "RELEASE_DATE": "28/06/2026",
     "REVIEW_DATE": "",
     "REVIEW_NAME": ""
   },

@@ -25,7 +25,7 @@ Optimized for time-critical embedded deployment at a switching frequency of **20
 | :--- | :--- | :--- |
 | **Input Voltage ($V_{in}$)** | 24 VDC | 28V MAX  |
 | **Output Voltage ($V_{out}$)** | 12 VDC | Regulated target reference ($V_{ref}$) can changed. |
-| **Maximum Load Current** | 18 A (9A per phase) | Rated for **200W+** continuous output capability  |
+| **Maximum Load Current** | 20 A (10A per phase) | Rated for **200W+** continuous output capability  |
 | **Switching Frequency ($f_{sw}$)** | 200 kHz | **400 kHz** equivalent input/output ripple frequency due to 180° interleaving |
 | **Controller Strategy** | State Feedback | Mathematical compensation for discrete execution delay  |
 | **Firmware Execution Time** | $\approx 2.2\ \mu s$ | Executed completely within a $5\ \mu s$ timing window |

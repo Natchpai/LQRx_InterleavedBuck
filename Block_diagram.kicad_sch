@@ -5,7 +5,7 @@
 	(uuid "f1f915bb-3f01-43e1-a48c-5809a60b6f17")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "Block Diagram")
 		(comment 2 "(Top Level View)")
 	)

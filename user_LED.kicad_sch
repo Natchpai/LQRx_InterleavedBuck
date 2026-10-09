@@ -5,12 +5,12 @@
 	(uuid "e0070500-aaa4-4633-8e51-bf2530548401")
 	(paper "A3")
 	(title_block
-		(rev "1.0")
+		(rev "1.1")
 		(comment 1 "User LEDs")
 		(comment 2 "Status LEDs")
 	)
 	(lib_symbols
-		(symbol "0_mosfet:GS2N7002KW"
+		(symbol "0_Mosfet:GS2N7002KW"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2070,7 +2070,7 @@
 		(uuid "e644ee5f-038f-4d38-8b69-2d712ea8df81")
 	)
 	(symbol
-		(lib_id "0_mosfet:GS2N7002KW")
+		(lib_id "0_Mosfet:GS2N7002KW")
 		(at 157.48 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4343,7 +4343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_mosfet:GS2N7002KW")
+		(lib_id "0_Mosfet:GS2N7002KW")
 		(at 213.36 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -4485,7 +4485,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_mosfet:GS2N7002KW")
+		(lib_id "0_Mosfet:GS2N7002KW")
 		(at 213.36 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -5302,7 +5302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_mosfet:GS2N7002KW")
+		(lib_id "0_Mosfet:GS2N7002KW")
 		(at 271.78 113.03 0)
 		(unit 1)
 		(body_style 1)
