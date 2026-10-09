@@ -317,15 +317,15 @@
   "erc": {
     "erc_exclusions": [
       [
-        "no_connect_connected|1104900|2082800|11c2a86c-8e6c-4e72-b70e-0e8c5f4ac2e2|db437ad6-8069-4741-a46c-07c2f3dcb3d1|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|",
+        "four_way_junction|1651000|1371600|c4a23d38-1e5d-433f-8f87-6d4dcf12a23c|06fcac16-7700-4aeb-99b8-93dcfd05840d|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/d5388e5d-ce73-495c-8f4e-f5dc7801722f||",
         ""
       ],
       [
-        "no_connect_connected|1104900|2082800|1afd8640-a3c5-4a58-beb0-7bef6796e831|db437ad6-8069-4741-a46c-07c2f3dcb3d1|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|",
+        "four_way_junction|1651000|2095500|c49a9f6a-620b-4c87-8656-f2dd23b7341c|ca33fcc0-1556-4141-8bcb-f06229d68029|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/d5388e5d-ce73-495c-8f4e-f5dc7801722f||",
         ""
       ],
       [
-        "no_connect_connected|1117600|2019300|11c2a86c-8e6c-4e72-b70e-0e8c5f4ac2e2|db437ad6-8069-4741-a46c-07c2f3dcb3d1|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/00f9770b-ce64-48a5-b1d9-f0d8e6c16b14|",
+        "four_way_junction|1778000|1892300|0396d692-3aae-43cb-9f90-1aec8df9ba3f|4fa32e2a-056f-4a36-88c0-d99f190bc25f|/76162bf1-0d95-48cb-b65a-4de551455d04/14a46fc2-d6e6-4db8-9171-63f847254504/6f83257e-625e-47ba-8f34-5cf0e0fc8175||",
         ""
       ]
     ],
@@ -516,7 +516,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -541,7 +541,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
