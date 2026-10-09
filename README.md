@@ -46,5 +46,12 @@ Optimized for time-critical embedded deployment at a switching frequency of **20
 1.  **Digital Delay Augmentation:** Mathematically models and compensates for the computation and ADC sampling delays within the state vector to prevent phase-margin degradation.
 2.  **Integral Action Augmentation:** Includes an augmented error-integral state to eliminate steady-state tracking error, forcing $V_{out} = V_{ref}$ under varying load conditions.
 
+## License
+Copyright (c) 2026 Natchpai.
+
+The hardware design files are licensed under CERN-OHL-W-2.0.
+
+The complete licence text is available in: </br>
+[CERN Open Hardware Licence Version 2 - Weakly Reciprocal](LICENSE)  </br>
 
 * **Project Developer** - *Core Hardware, Embedded Firmware & Control Design* - [@Natchpai](https://github.com/Natchpai)
