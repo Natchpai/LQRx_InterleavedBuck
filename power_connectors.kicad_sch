@@ -9,7 +9,7 @@
 		(comment 1 "Power Connectors")
 	)
 	(lib_symbols
-		(symbol "0_connectors:Conn_02x02_Top_Bottom"
+		(symbol "0_Connectors:Conn_02x02_Top_Bottom"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -225,7 +225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_protection:SMBJ30A"
+		(symbol "0_Protection:SMBJ30A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10398,7 +10398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_02x02_Top_Bottom")
+		(lib_id "0_Connectors:Conn_02x02_Top_Bottom")
 		(at 303.53 114.3 90)
 		(unit 1)
 		(body_style 1)
@@ -10620,7 +10620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_02x02_Top_Bottom")
+		(lib_id "0_Connectors:Conn_02x02_Top_Bottom")
 		(at 99.06 114.3 90)
 		(unit 1)
 		(body_style 1)
@@ -10762,7 +10762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_02x02_Top_Bottom")
+		(lib_id "0_Connectors:Conn_02x02_Top_Bottom")
 		(at 111.76 114.3 90)
 		(unit 1)
 		(body_style 1)
@@ -11060,7 +11060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:SMBJ30A")
+		(lib_id "0_Protection:SMBJ30A")
 		(at 287.02 115.57 270)
 		(unit 1)
 		(body_style 1)
@@ -11197,7 +11197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_protection:SMBJ30A")
+		(lib_id "0_Protection:SMBJ30A")
 		(at 128.27 115.57 270)
 		(unit 1)
 		(body_style 1)
@@ -11334,7 +11334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_02x02_Top_Bottom")
+		(lib_id "0_Connectors:Conn_02x02_Top_Bottom")
 		(at 316.23 114.3 90)
 		(unit 1)
 		(body_style 1)

@@ -9,9 +9,9 @@
 		(comment 1 "Power Supply Sequencing")
 	)
 	(lib_symbols)
-	(text "1.2V"
+	(text "4.5V"
 		(exclude_from_sim no)
-		(at 138.6608 170.5585 0)
+		(at 138.5208 160.5785 0)
 		(effects
 			(font
 				(face "Century Gothic")
@@ -22,19 +22,6 @@
 			(justify left)
 		)
 		(uuid "07b049cb-44b9-4d4a-ae6c-55e145215c8d")
-	)
-	(text "1.8ms"
-		(exclude_from_sim no)
-		(at 193.1754 209.9548 0)
-		(effects
-			(font
-				(face "Century Gothic")
-				(size 2.54 2.54)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "098d9c99-83fe-41bd-8e6d-e13ce934755a")
 	)
 	(text "SPX3819 \n(+3.3V) MCU PWR\nSource: +5V"
 		(exclude_from_sim no)
@@ -61,6 +48,19 @@
 			)
 		)
 		(uuid "12e5a51d-74c8-4f82-a4a3-404444e82d35")
+	)
+	(text "(1) Enable 5V Buck"
+		(exclude_from_sim no)
+		(at 181.61 104.14 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.032 2.032)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "302e0638-a2a4-44d6-aeb9-254021331048")
 	)
 	(text "Voltage"
 		(exclude_from_sim no)
@@ -89,28 +89,13 @@
 		)
 		(uuid "4d474056-a37a-4d2e-b6fc-8bec98b2cc65")
 	)
-	(text "> NORMAL OPERATING POINT"
-		(exclude_from_sim no)
-		(at 255 105 0)
-		(effects
-			(font
-				(face "Century Gothic")
-				(size 2.54 2.54)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "53490128-e478-4ef2-943f-b970f9cbd379")
-	)
 	(text "1.8ms"
 		(exclude_from_sim no)
-		(at 242.015 210.107 0)
+		(at 242.57 116.84 0)
 		(effects
 			(font
-				(face "Century Gothic")
-				(size 2.54 2.54)
-				(bold yes)
+				(face "Arial")
+				(size 2.032 2.032)
 				(color 0 0 0 1)
 			)
 		)
@@ -186,6 +171,18 @@
 		)
 		(uuid "c526ab7b-3b81-4ba3-aee7-b2cf579bff1b")
 	)
+	(text "1.8ms"
+		(exclude_from_sim no)
+		(at 192.405 151.765 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.032 2.032)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c873832d-40c5-49ea-9a0d-5991ef283d51")
+	)
 	(text "time"
 		(exclude_from_sim no)
 		(at 300.99 205.74 0)
@@ -198,6 +195,19 @@
 			)
 		)
 		(uuid "d31db91d-ce2e-4194-afb1-ec636983b234")
+	)
+	(text "Not measured"
+		(exclude_from_sim no)
+		(at 202.565 210.185 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.032 2.032)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "dbb39226-d487-47a7-8601-5dbf3a8d0186")
 	)
 	(text "LMR54410 \n(+9V) Gate Driver PWR\nSource: +VIN"
 		(exclude_from_sim no)
@@ -241,16 +251,17 @@
 		)
 		(uuid "ebb6caa2-8f21-45d4-a6b4-d4ef62132347")
 	)
-	(polyline
-		(pts
-			(xy 205.5482 205.226) (xy 205.5482 210.226)
+	(text "(2) Enable 9V Buck"
+		(exclude_from_sim no)
+		(at 243.332 89.408 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.032 2.032)
+				(color 0 0 0 1)
+			)
 		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "04d9dcad-62b0-4e56-ac51-15deb0f6de86")
+		(uuid "f97c737f-a8b5-4ddf-87f4-3b3050120c8b")
 	)
 	(polyline
 		(pts
@@ -265,17 +276,6 @@
 	)
 	(polyline
 		(pts
-			(xy 150 215) (xy 195 215)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "1323c252-5d71-4427-8a1d-ffa402b0facc")
-	)
-	(polyline
-		(pts
 			(xy 115 150) (xy 120 145)
 		)
 		(stroke
@@ -287,10 +287,21 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 111.76) (xy 294.86 111.76)
+			(xy 255.27 210.82) (xy 255.27 208.36)
 		)
 		(stroke
-			(width 0.6)
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "139d8684-443f-483b-878d-d408d7dbb291")
+	)
+	(polyline
+		(pts
+			(xy 150.114 111.76) (xy 294.86 111.76)
+		)
+		(stroke
+			(width 0.381)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -298,29 +309,29 @@
 	)
 	(polyline
 		(pts
-			(xy 255 165) (xy 255 220)
+			(xy 292.354 204.47) (xy 295.148 204.978)
 		)
 		(stroke
-			(width 0.4)
-			(type default)
+			(width 0.508)
+			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "15fe5b83-f224-4f75-baa7-38636151704c")
+		(uuid "197c6e89-f8be-463a-8334-26c74a4263c8")
 	)
 	(polyline
 		(pts
-			(xy 255 100) (xy 255 165)
+			(xy 229.87 116.205) (xy 236.855 116.205)
 		)
 		(stroke
-			(width 0.4)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "18da27a3-c55a-42af-aba7-804bf753feb8")
+		(uuid "1a4444ad-69ec-438f-bb66-988741d49e0c")
 	)
 	(polyline
 		(pts
-			(xy 115 205) (xy 120 200)
+			(xy 115 205) (xy 120.142 199.898)
 		)
 		(stroke
 			(width 0.4)
@@ -331,10 +342,10 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 147.32) (xy 294.86 147.32)
+			(xy 150.114 147.32) (xy 294.86 147.32)
 		)
 		(stroke
-			(width 0.6)
+			(width 0.381)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -353,14 +364,25 @@
 	)
 	(polyline
 		(pts
-			(xy 150 210) (xy 150 220)
+			(xy 205.105 152.4) (xy 205.105 149.94)
 		)
 		(stroke
-			(width 0.4)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "35384406-409c-4f05-8b11-db00fec8916a")
+		(uuid "2d46f664-246c-4cee-989d-8daebb92d66e")
+	)
+	(polyline
+		(pts
+			(xy 149.86 210.82) (xy 149.86 208.36)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "33cf0ef7-6f99-4fc7-a7a2-1e2ac1389682")
 	)
 	(polyline
 		(pts
@@ -378,11 +400,44 @@
 			(xy 150 205) (xy 295 205)
 		)
 		(stroke
-			(width 0.8)
+			(width 0.508)
 			(type solid)
 			(color 0 0 0 1)
 		)
 		(uuid "3e25024f-44f7-4e19-9437-9db7d03e6738")
+	)
+	(polyline
+		(pts
+			(xy 255.27 120.65) (xy 255.27 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "46025470-660e-4c2b-813a-f6cd27c34755")
+	)
+	(polyline
+		(pts
+			(xy 205.105 151.13) (xy 198.12 151.13)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "462b7c8f-6ca0-43fb-8273-2f5b5cfb141d")
+	)
+	(polyline
+		(pts
+			(xy 255.27 209.55) (xy 215.9 209.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4822bc37-a8fd-480d-998d-87cad04f7ae7")
 	)
 	(polyline
 		(pts
@@ -419,7 +474,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190 200) (xy 195 190)
+			(xy 180.594 199.898) (xy 200.152 189.992)
 		)
 		(stroke
 			(width 0.5)
@@ -430,7 +485,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.161 169.9404) (xy 190 200)
+			(xy 200.152 160.02) (xy 200.207 190)
 		)
 		(stroke
 			(width 0.25)
@@ -441,7 +496,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195 190) (xy 290 190)
+			(xy 200.152 189.992) (xy 288.29 189.992)
 		)
 		(stroke
 			(width 0.5)
@@ -452,7 +507,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 119.38) (xy 152.4 119.38)
+			(xy 150.114 119.38) (xy 152.654 119.38)
 		)
 		(stroke
 			(width 0.5)
@@ -460,6 +515,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "5a19ef67-7f01-4c97-869e-bcc69351e238")
+	)
+	(polyline
+		(pts
+			(xy 292.354 204.47) (xy 292.354 205.486)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5be214e1-d197-4d6e-9b5a-f87dad8bf5d7")
 	)
 	(polyline
 		(pts
@@ -485,7 +551,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150 170) (xy 152.54 170)
+			(xy 150.114 160.02) (xy 152.654 160.02)
 		)
 		(stroke
 			(width 0.5)
@@ -496,7 +562,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.161 169.9404) (xy 150 170)
+			(xy 200.152 160.02) (xy 150.114 160.02)
 		)
 		(stroke
 			(width 0.25)
@@ -507,21 +573,10 @@
 	)
 	(polyline
 		(pts
-			(xy 229.3878 205.3782) (xy 229.3878 210.3782)
+			(xy 150.114 182.88) (xy 294.86 182.88)
 		)
 		(stroke
-			(width 0.4)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "7991bf4e-5073-49dd-9073-00e44edda54d")
-	)
-	(polyline
-		(pts
-			(xy 149.86 182.88) (xy 294.86 182.88)
-		)
-		(stroke
-			(width 0.6)
+			(width 0.381)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -540,7 +595,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190 200) (xy 150 200)
+			(xy 180.594 199.898) (xy 150.114 199.898)
 		)
 		(stroke
 			(width 0.5)
@@ -562,21 +617,10 @@
 	)
 	(polyline
 		(pts
-			(xy 210 215) (xy 255 215)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "9e89348d-ecbf-4d53-8cca-b63712b35354")
-	)
-	(polyline
-		(pts
 			(xy 150 70) (xy 152.54 70)
 		)
 		(stroke
-			(width 0.5)
+			(width 0.508)
 			(type default)
 			(color 0 0 0 1)
 		)
@@ -598,7 +642,7 @@
 			(xy 150 60) (xy 150 205)
 		)
 		(stroke
-			(width 0.8)
+			(width 0.508)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -606,14 +650,14 @@
 	)
 	(polyline
 		(pts
-			(xy 180.5482 205.226) (xy 180.5482 210.226)
+			(xy 149.86 209.55) (xy 189.865 209.55)
 		)
 		(stroke
-			(width 0.4)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "c4265893-68ba-4ed5-b8ba-3f416348fb07")
+		(uuid "c9e8c8d1-5d55-46bf-aa54-d93377847589")
 	)
 	(polyline
 		(pts
@@ -639,7 +683,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 154.94) (xy 152.4 154.94)
+			(xy 150.114 154.94) (xy 152.654 154.94)
 		)
 		(stroke
 			(width 0.5)
@@ -661,7 +705,18 @@
 	)
 	(polyline
 		(pts
-			(xy 120 200) (xy 150 200)
+			(xy 254.635 116.205) (xy 247.65 116.205)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d84f2b8c-e4ac-470f-b960-d30dec954340")
+	)
+	(polyline
+		(pts
+			(xy 120.142 199.898) (xy 150.114 199.898)
 		)
 		(stroke
 			(width 0.4)
@@ -672,7 +727,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 190.5) (xy 152.4 190.5)
+			(xy 150.114 190.5) (xy 152.654 190.5)
 		)
 		(stroke
 			(width 0.5)
@@ -727,6 +782,17 @@
 	)
 	(polyline
 		(pts
+			(xy 292.354 205.486) (xy 295.148 204.978)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e984fc60-ac49-4412-b11a-b364219bd189")
+	)
+	(polyline
+		(pts
 			(xy 120 180) (xy 150 180)
 		)
 		(stroke
@@ -735,5 +801,27 @@
 			(color 201 161 5 1)
 		)
 		(uuid "eaf508a9-2475-4a75-8395-55de5d298ebd")
+	)
+	(polyline
+		(pts
+			(xy 254.635 117.475) (xy 254.635 115.015)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ec49d848-4e0c-40c5-b9ba-32814bf40ad3")
+	)
+	(polyline
+		(pts
+			(xy 180.34 151.13) (xy 187.325 151.13)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fd9598ce-b618-4a00-9466-ae5f1edd21a2")
 	)
 )

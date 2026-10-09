@@ -10,196 +10,7 @@
 		(comment 2 "2-Phase Buck & Gate Driver")
 	)
 	(lib_symbols
-		(symbol "0_Inductor:L_dot"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_dot_0_1"
-				(arc
-					(start -2.54 0)
-					(mid -1.905 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.6323)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_dot_1_1"
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0_currentSensors:ACS37030LLZATR"
+		(symbol "0_CurrentSensors:ACS37030LLZATR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -382,7 +193,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_currentSensors:INA187Ax"
+		(symbol "0_CurrentSensors:INA187Ax"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -578,7 +389,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_diode:BAT54XV2T5G"
+		(symbol "0_Diode:BAT54XV2T5G"
 			(pin_numbers
 				(hide yes)
 			)
@@ -744,7 +555,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_gateDrivers:UCC27282DRCR"
+		(symbol "0_GateDrivers:UCC27282DRCR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1029,7 +840,196 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_infineon_MOSFET:BSZ018N04LS6"
+		(symbol "0_Inductor:L_dot"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_dot_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_dot_1_1"
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_Infineon_MOSFET:BSZ018N04LS6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1338,7 +1338,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_infineon_MOSFET:IQE013N04LM6"
+		(symbol "0_Infineon_MOSFET:IQE013N04LM6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1647,7 +1647,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_miscellaneous:BlankSymbol"
+		(symbol "0_Miscellaneous:BlankSymbol"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11997,7 +11997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -12806,7 +12806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_currentSensors:ACS37030LLZATR")
+		(lib_id "0_CurrentSensors:ACS37030LLZATR")
 		(at 247.65 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -13356,7 +13356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_currentSensors:ACS37030LLZATR")
+		(lib_id "0_CurrentSensors:ACS37030LLZATR")
 		(at 247.65 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -15230,7 +15230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -15364,7 +15364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:IQE013N04LM6")
+		(lib_id "0_Infineon_MOSFET:IQE013N04LM6")
 		(at 162.56 222.25 0)
 		(unit 1)
 		(body_style 1)
@@ -16412,7 +16412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_currentSensors:INA187Ax")
+		(lib_id "0_CurrentSensors:INA187Ax")
 		(at 81.28 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -16530,6 +16530,50 @@
 				)
 			)
 		)
+		(property "Manufacturer 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2nd" ""
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "1c8d39a2-9cf7-4cb9-88cc-f01e6e4c1417")
 		)
@@ -16558,7 +16602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:IQE013N04LM6")
+		(lib_id "0_Infineon_MOSFET:IQE013N04LM6")
 		(at 162.56 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -18198,7 +18242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:BSZ018N04LS6")
+		(lib_id "0_Infineon_MOSFET:BSZ018N04LS6")
 		(at 162.56 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -18344,7 +18388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 215.9 0)
 		(unit 1)
 		(body_style 1)
@@ -20152,7 +20196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_infineon_MOSFET:BSZ018N04LS6")
+		(lib_id "0_Infineon_MOSFET:BSZ018N04LS6")
 		(at 162.56 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -21255,7 +21299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_miscellaneous:BlankSymbol")
+		(lib_id "0_Miscellaneous:BlankSymbol")
 		(at 241.3 308.61 0)
 		(unit 1)
 		(body_style 1)
@@ -21780,7 +21824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_gateDrivers:UCC27282DRCR")
+		(lib_id "0_GateDrivers:UCC27282DRCR")
 		(at 97.79 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -23144,7 +23188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_gateDrivers:UCC27282DRCR")
+		(lib_id "0_GateDrivers:UCC27282DRCR")
 		(at 97.79 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -25508,7 +25552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_diode:BAT54XV2T5G")
+		(lib_id "0_Diode:BAT54XV2T5G")
 		(at 138.43 190.5 0)
 		(unit 1)
 		(body_style 1)
