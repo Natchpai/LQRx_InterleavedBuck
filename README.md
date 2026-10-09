@@ -2,7 +2,6 @@
 
 [![Hardware](https://img.shields.io/badge/Hardware-STM32G474RET6-blue.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32g474re.html)
 [![Control Theory](https://img.shields.io/badge/Control-Augmented%20LQR%20-orange.svg)](https://www.mathworks.com/products/control.html)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Digitally controlled **2-Phase Interleaved Synchronous Buck Converter** utilizing a state-space **Linear Quadratic Regulator** 
 Optimized for time-critical embedded deployment at a switching frequency of **200 kHz** using the STM32G474 microcontroller.
